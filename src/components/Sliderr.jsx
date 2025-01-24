@@ -23,46 +23,46 @@ export default function SimpleSlider() {
   };
   return (
     <>
-      <div className="h-20  ">
+      <div className="  ">
         <Slider {...settings} className="md:flex space-x-2 md:justify-center md:items-center  flex-col">
           <div>
             <img
-              className="sm:w-24 w-20 h-[20px]  me-[45px] sm:h-[70px]"
+              className="sm:w-64 w-40 h-[30px] p-3   gap-[30px] sm:h-[70px]"
               src={kasper}
               alt="kasper-logo"
             />
           </div>
           <div>
             <img
-              className="sm:w-40 w-40 h-[70px] me-[45px] sm:h-[70px]"
+              className="sm:w-64 w-40 h-[30px] p-3   gap-[30px] sm:h-[70px]"
               src={microsoft}
               alt="microsoft-logo"
             />
           </div>
           <div>
             <img
-              className="sm:w-40 w-40 h-[70px] me-[45px] sm:h-[70px]"
+              className="sm:w-64 w-40 h-[30px] p-3   gap-[30px] sm:h-[70px]"
               src={pep}
               alt="kasper-logo"
             />
           </div>
           <div>
             <img
-              className="sm:w-40 w-40 h-[70px] me-[45px] sm:h-[70px]"
+              className="sm:w-64 w-40 h-[30px] p-3   gap-[30px] sm:h-[70px]"
               src={dell}
               alt="dell-logo"
             />
           </div>
           <div>
             <img
-              className="sm:w-40 w-40 h-[70px] me-[45px] sm:h-[70px]"
+              className="sm:w-64 w-40 h-[30px] p-3   gap-[30px] sm:h-[70px]"
               src={cisco}
               alt="pep-logo"
             />
           </div>
           <div>
             <img
-              className="sm:w-40 w-40 h-[70px] me-[45px] sm:h-[70px]"
+              className="sm:w-64 w-40 h-[30px] p-3   gap-[30px] sm:h-[70px]"
               src={lenovo}
               alt="dell-logo"
             />

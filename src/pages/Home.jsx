@@ -1,16 +1,20 @@
-import React from "react";
-import Hero from "../Ui/Hero";
-import Partners from "../Ui/Partners";
-import About from "../Ui/About";
-import OurServices from "../Ui/OurServices";
+import { ClassNames } from "@emotion/react";
+import About from "../ui/About";
+import Hero from "../ui/Hero";
+import Navbar from "../ui/Navbar";
+import OurServices from "../ui/OurServices";
+import Partners from "../ui/Partners";
+
 
 export default function Home() {
   return (
-    <div>
+    <>
+      <Navbar />
       <Hero />
-      <Partners />
-      <About />
-      <OurServices />
-    </div>
+     <Partners/>
+     <About/>
+     {/* <OurServices/>  */}
+
+    </>
   );
 }

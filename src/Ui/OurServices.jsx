@@ -1,22 +1,16 @@
-import React from "react";
-import OurServicesCards from "../components/OurServicesCards";
+import CardSlider from "../components/CardSlider";
 
 export default function OurServices() {
   return (
     <div className="mt-[205px]">
       <div>
-        <h2 className="text-primary text-[36px] font-mons font-bold mb-4 text-mons ">
-          Our Services
-        </h2>
+        <h2 className="text-primary text-[36px] font-mons font-bold mb-4 text-mons ">خدماتنا</h2>
         <p className="text-secondary text-[20px] mb-24">
-          {" "}
-          We Have the Pleasure of Introducing Ourselves as an Independent
-          Solutions Provider of the World's Leading Brands Related to The IT
-          Industry and Software Development.{" "}
+          يسعدنا أن نقدم أنفسنا كمزود حلول مستقل لأهم العلامات التجارية العالمية
+          المتعلقة بصناعة تكنولوجيا المعلومات وتطوير البرمجيات.
         </p>
       </div>
-
-      <OurServicesCards />
+      <CardSlider />
     </div>
   );
 }

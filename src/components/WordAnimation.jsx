@@ -23,7 +23,7 @@ export default function WordAnimation() {
   return (
     <div>
       <Fade key={words[currentIndex]} duration={1000}>
-        <span className="font-bold text-xl sm:text-[64px] font-mons text-[#478B9C]">
+        <span className="font-bold text-[64px] font-mons text-[#478B9C]">
           {words[currentIndex]}
         </span>
       </Fade>

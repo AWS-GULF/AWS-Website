@@ -10,55 +10,53 @@ import linked from "../../public/assets/icons/linked.svg";
 
 export default function Hero() {
   return (
-    <div className="flex-col mt-14 text-primary m-0 xl:flex xl:flex-row  ">
-      <div className="xl:w-50 m-auto w-full flex-col justify-center items-center ">
-        <h1 className="mb-6 font-mons text-[36px] font-bold " >
-          Your Lighthouse <br /> To Future
-        </h1>
-        <p className="text-secondary mb-14 font-mons leading-8 font-light    self-stretch ">
+    <div className=" sm:my-12 sm:mx-12 flex-col sm:flex-row sm:flex sm:justify-between  sm:items-center  ">
+      <div className="sm:w-[45%] ">
+        <div className="title & desc mb-16">
           {" "}
-          Marketing consultancy, UX UI web design, <br />mobile apps & software
-          coding, sponsored ads,<br />
-           content creation, graphic design, AI & video <br />
-          production.
-        </p>
-        <Button type="primary">Contact Us Now</Button>
-
-
-
-
-
-
-        <div className="flex  mx-0  mt-9  sm:space-x-2  space-x-2">
-          <img
-            src={x}
-            alt="x-platform"
-            className="sm:w-[25px] sm:h-[25px]   "
-          />
-          <img src={snap} alt="snap-platform" className="sm:w-[25px] sm:h-[25px]] " />
-          <img
-            src={faceBook}
-            alt="faceBook-platform"
-            className="sm:w-[25px] sm:h-[25px]"
-          />
-          <img src={youtube} alt="youtube-platform" className="sm:w-[25px] sm:h-[25px] " />
-          <img src={linked} alt="linked-platform" className="sm:w-[25px] sm:h-[25px] " />
-          <img src={insta} alt="insta-platform" className="sm:w-[25px] sm:h-[25px] " />
-          <img src={behance} alt="behance-platform" className="sm:w-[25px] sm:h-[25px] " />
+          <h1 className="text-primary font-bold sm:text-5xl tracking-widest font-mons mb-6">
+            Your Lighthouse <br /> To Future
+          </h1>
+          <p className="sm:tracking-wider font-mons text-[20px] text-secondary font-light ">
+            Marketing consultancy, UX UI web design, <br /> mobile apps &
+            software coding, sponsored ads, <br /> content creation, graphic
+            design, AI & video <br /> production.
+          </p>
         </div>
+
+<div className="button7 icons">
+<Button type="primaryXl">Contact Us Now</Button>
+
+   <ul className="mt-[30px] flex  items-center sm:gap-7  gap-2 ">
+    <li><img src={behance} alt="behance" /></li>
+    <li><img src={insta} alt="instagram" /></li>
+    <li><img src={linked} alt="linked in" /></li>
+    <li><img src={youtube} alt="youtube" /></li>
+    <li><img src={faceBook} alt="facebook" /></li>
+    <li><img src={snap} alt="snap chat" /></li>
+    <li><img src={x} alt="x" /></li>
+
+
+ </ul>
+
+</div>
+ 
       </div>
 
 
+      <div className="sm:w-[45%] ">
 
 
-      {/* ////////////////////////////////////////////////////////// */}
-
-      <div className="w-full  flex-col ms-5 items-center justify-center">
-        <div className="flex justify-between items-end  ">
-          <p> Software Solutions</p>
-        <img src={heroImg} className=" w-32 h-32" alt="Logo" />
-          <p>Marketing Solutions</p>
+        <div className="flex justify-center  items-center sm:my-0 mt-5">
+        <p className="me-6 font-mons text-sm flex-nowrap text-primary font-bold ">Hadware & IT Services</p>
+          <img src={heroImg} className="w-[160px] h-[160px]" alt="logo" />
+        <p className="ms-6 font-mons text-sm flex-nowrap text-primary font-bold">Marketing Solutions</p>
         </div>
+
+
+
+
+
       </div>
     </div>
   );

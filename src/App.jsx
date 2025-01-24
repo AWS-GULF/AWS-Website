@@ -1,11 +1,18 @@
-import AppLayout from "./pages/AppLayout";
+import Home from "./pages/Home";
 
-export default function App() {
+
+function App() {
+
+
+  
   return (
-    <>
-      <div className="px-12">
-        <AppLayout />
-      </div>
-    </>
+    
+<Home/>
+    
+
+    
+  
   );
 }
+
+export default App;
