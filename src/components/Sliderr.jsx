@@ -13,7 +13,7 @@ export default function SimpleSlider() {
     dots: false,
     infinite: true,
     speed: 3000,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,

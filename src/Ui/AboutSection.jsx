@@ -1,7 +1,7 @@
 import Button from "../components/Button";
 import WordAnimation from "../components/WordAnimation";
 
-export default function About() {
+export default function AboutSection() {
   return (
     <div className="sm:flex sm:flex-row w-full   py-16 flex-col ">
       <div className="sm:w-[40%] flex justify-center tracking-wide 	 ">

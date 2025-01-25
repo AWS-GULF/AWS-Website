@@ -1,4 +1,4 @@
-import CardSlider from "../components/CardSlider";
+// import CardSlider from "../components/CardSlider";
 
 export default function OurServices() {
   return (
@@ -10,7 +10,7 @@ export default function OurServices() {
           المتعلقة بصناعة تكنولوجيا المعلومات وتطوير البرمجيات.
         </p>
       </div>
-      <CardSlider />
+      {/* <CardSlider /> */}
     </div>
   );
 }
