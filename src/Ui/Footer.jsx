@@ -9,8 +9,8 @@ import linked from "../../public/assets/icons/linked.svg";
 export default function Footer() {
   return (
     <>
-      <div className="sm:flex sm:justify-evenly sm:items-start sm:pt-16 w-full Footer ">
-        <footer className="footer  text-base-content  sm:flex sm:justify-between sm:items-start  sm:ps-12 sm:pe-12 shadow-sm ">
+      <div className="sm:flex sm:justify-evenly sm:items-start sm:pt-16 w-full Footer border-t ">
+        <footer className="footer  text-base-content  sm:flex sm:justify-between sm:items-start  sm:ps-12 sm:pe-12  ">
           <div className="w-[40%]">
             <aside>
               <div className=" flex-col text-center justify-center  items-center w-36 mt-[-5px]  m-auto ">

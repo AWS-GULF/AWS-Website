@@ -1,10 +1,11 @@
 // import About from "../ui/AboutSection";
 import Hero from "../ui/Hero";
 // import Navbar from "../ui/Navbar";
-// import OurServices from "../ui/OurServices";
+import OurServices from "../ui/OurServices";
 import Partners from "../ui/Partners";
 // import Footer from "../ui/Footer";
 import AboutSection from "../ui/AboutSection";
+import Clients from "../components/Clients";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
       <Hero />
       <Partners />
       <AboutSection />
-      {/* <OurServices/>  */}
-      
+      <OurServices />
+      <Clients /> 
     </>
   );
 }

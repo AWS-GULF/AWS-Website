@@ -14,7 +14,7 @@ export default function Applayout() {
       <div className="flex flex-col min-h-screen">
         <NavBar />
         <main className="flex-grow">
-          <Outlet /> {/* Your React Router content */}
+          <Outlet /> 
         </main>
         <Footer className="w-full" />
       </div>

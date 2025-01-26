@@ -3,18 +3,18 @@ import WordAnimation from "../components/WordAnimation";
 
 export default function AboutSection() {
   return (
-    <div className="sm:flex sm:flex-row w-full   py-16 flex-col ">
-      <div className="sm:w-[40%] flex justify-center tracking-wide 	 ">
-        <div className="w-[438px]  font-mons bg-card flex justify-center items-center rounded-[10px] ">
+    <div className="sm:flex sm:flex-row w-full mt-[100px] flex-col  ">
+      <div className="sm:w-[45%] flex justify-center tracking-wide  ps-36">
+        <div className="w-[438px] h-[620px] font-mons bg-card flex justify-center items-center rounded-[10px]  mt-16">
           <WordAnimation />
         </div>
       </div>
 
-      <div className="sm:w-[50%] w-full sm:mt-0 mt-10 xl:ms-[119px] ">
+      <div className="sm:w-[50%] w-full sm:mt-0 mt-10 md:ps-[120px] self-start ">
         <h2 className="text-2xl font-mons text-primary font-bold tracking-wide  ">
           About AWS GULF{" "}
         </h2>
-        <p className="text-[#333] mt-8 text-sm font-cairo leading-8 tracking-wide font-light">
+        <p className="text-[#333] mt-8 text-[16] font-cairo leading-8 tracking-wide font-light">
           AWS is a forward-thinking IT system integrator and services provider,{" "}
           <br />
           established in 2024 with a focus on delivering cutting-edge IT <br />
@@ -38,7 +38,7 @@ export default function AboutSection() {
           expectations.
         </p>
 
-        <div className="flex font-cairo justify-start items-start xl:gap-12 mt-8">
+        <div className="flex font-cairo justify-start items-start  mt-8">
           <div className="flex-col justify-start items-start">
             <Button type="primaryXlMoreW">Creativity</Button>
             <ul className="text-secondary text-[14px] mt-4">
@@ -47,7 +47,7 @@ export default function AboutSection() {
               <li>Interactive User Experience</li>
               <li>Strategic Branding & Graphics </li>
               <li className="mb-[30px]">AI-Driven Solutions</li>
-              <Button type="linkBtn">More About Us</Button>
+              <div className="mb-36"><Button type="linkBtn">More About Us</Button></div>
             </ul>
           </div>
           <div className="ms-8 ">
