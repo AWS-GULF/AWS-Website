@@ -52,9 +52,9 @@ export default function Hero() {
 
 
         <div className="flex justify-center  items-center sm:my-0 mt-5">
-        <p className="me-6 font-mons text-sm flex-nowrap text-primary font-bold ">Hadware & IT Services</p>
+        {/* <p className="me-6 font-mons text-sm flex-nowrap text-primary font-bold ">Hadware & IT Services</p> */}
           <img src={heroImg} className="w-[160px] h-[160px]" alt="logo" />
-        <p className="ms-6 font-mons text-sm flex-nowrap text-primary font-bold">Marketing Solutions</p>
+        {/* <p className="ms-6 font-mons text-sm flex-nowrap text-primary font-bold">Marketing Solutions</p> */}
         </div>
 
 

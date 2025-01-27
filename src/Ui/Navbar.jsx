@@ -4,20 +4,17 @@ import global from "../../public/assets/icons/Globe.svg";
 import Button from "../components/Button";
 import { useEffect, useState } from "react";
 
-
 export default function NavBar() {
   const [theme, setTheme] = useState("light");
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
 
-
   function handleToogle() {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   }
   return (
     <>
-  
       <div className="navbar bg-base-100 drop-shadow-md 	">
         <div className="navbar-start flex justify-start items-start sm:justify-start sm:items-start sm:flex-row">
           <div className="dropdown ">
@@ -84,8 +81,8 @@ export default function NavBar() {
           <ul className="menu menu-horizontal px-1">
             <li>
               <details>
-                <summary className="text-[16x] font-mons font-[500] text-secondary ms-10 me-[45px] ">
-                  Services
+                <summary className=" !bg-transparent  !rounded-none text-[16x]  font-mons font-[500] hover:border-b-[5px]   hover:bg-transparent hover:border-primary hover:pb-3 text-secondary ms-10 me-[45px] ">
+                  <li className=" "> Services</li>
                 </summary>
                 <ul className="p-2">
                   <li>
@@ -97,17 +94,17 @@ export default function NavBar() {
                 </ul>
               </details>
             </li>
-            <li className="text-[16x] font-mons font-[500] text-secondary me-[45px]">
-              <a>Work</a>
+            <li className="!bg-transparent  !rounded-none text-[16x]  font-mons font-[500] hover:border-b-[5px]  hover:bg-transparent hover:border-primary hover:pb-3 text-secondary  me-[45px] ">
+              <a className=" hover:bg-transparent">Work</a>
             </li>
-            <li className="text-[16x] font-mons font-[500] text-secondary me-[45px]">
-              <a>About</a>
+            <li className="!bg-transparent  !rounded-none text-[16x]  font-mons font-[500] hover:border-b-[5px]  hover:bg-transparent hover:border-primary hover:pb-3 text-secondary  me-[45px]">
+              <a className=" hover:bg-transparent">About</a>
             </li>
-            <li className="text-[16x] font-mons font-[500] text-secondary me-[45px]">
-              <a>Careers</a>
+            <li className="!bg-transparent  !rounded-none text-[16x]  font-mons font-[500] hover:border-b-[5px]  hover:bg-transparent hover:border-primary hover:pb-3 text-secondary  me-[45px]">
+              <a className=" hover:bg-transparent">Careers</a>
             </li>
-            <li className="text-[16x] font-mons font-[500] text-secondary me-[125px]">
-              <a>Blog</a>
+            <li className="text-[16x] font-mons font-[500] text-secondary me-[125px] hover:border-b-[5px]   hover:border-primary hover:pb-3     ">
+              <a className=" hover:bg-transparent">Blog</a>
             </li>
           </ul>
         </div>
@@ -130,5 +127,3 @@ export default function NavBar() {
     </>
   );
 }
-
-

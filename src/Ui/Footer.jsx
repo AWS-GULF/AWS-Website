@@ -81,7 +81,7 @@ export default function Footer() {
         </footer>
       </div>
 
-      <p className="ms-[96px] me-[96px] text-center mt-10">
+      <p className="ms-[96px] me-[96px] text-center mt-10 mb-3">
         {" "}
         &copy; 2024 ScaleUp Media. All rights reserved.
       </p>

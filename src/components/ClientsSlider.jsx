@@ -53,6 +53,7 @@ const ClientsSlider = () => {
         }}
         pagination={{
           clickable: true,
+         
         }}
         slidesPerGroup={3}
         loop={false}
@@ -66,7 +67,7 @@ const ClientsSlider = () => {
             <img
               src={logo.src}
               alt={logo.alt}
-              className="w-24 h-24 mb-10 m-auto  "
+              className="w-40 h-24 mb-10 m-auto pb-10 "
             />
           </SwiperSlide>
         ))}
