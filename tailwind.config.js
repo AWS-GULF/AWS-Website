@@ -12,6 +12,7 @@ export default {
         card: "#EAF5F6",
         stroke: "#666",
         aboutCont: "#333",
+        stroke:"#E0E0E0"
       },
       fontFamily: {
         cairo: "Cairo, serif",

@@ -16,7 +16,8 @@ function Button({ children, disabled, to, type, onClick }) {
             rounded-full hover:bg-stone-300 hover:text-stone-800 focus:text-stone-800 transition-colors duration-300 
            focus:outline-none focus:ring focus:ring-stone-200 focus-offset-4  focus:bg-stone-300
            disabled:cursor-not-allowed py-2.5 px-4 md:px-6 md:py-3.5  `,
-    linkBtn:`decoration-1	underline text-primary text-[20px] font-[600] tracking-wider `
+    linkBtn:`decoration-1	underline text-primary text-[20px] font-[600] tracking-wider whitespace-nowrap `,
+    linkBtnSm:`decoration-1	underline text-primary text-[16px] font-[600] tracking-wider whitespace-nowrap `
   };
 
   if (to)

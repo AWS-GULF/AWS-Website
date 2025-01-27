@@ -34,7 +34,7 @@ export default function OurServices() {
               commitments with excellence.
             </p>
             <div className="card-actions justify-start mt-3 ">
-              <Button type="linkBtn">See More</Button>
+              <Button type="linkBtn" to={"/qulityassurance"}>See More</Button>
             </div>
           </div>
         </div>

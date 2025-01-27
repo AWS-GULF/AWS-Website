@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import quote from "../../public/assets/icons/gridicons_quote.svg";
-import ClientsSlider from "./ClientsSlider";
-import Button from "./Button";
+import ClientsSlider from "../components/ClientsSlider";
+import Button from "../components/Button";
 
 export default function Clients() {
   const [isOpen, setIsOpen] = useState(false);
