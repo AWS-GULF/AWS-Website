@@ -6,6 +6,7 @@ import Partners from "../ui/Partners";
 // import Footer from "../ui/Footer";
 import AboutSection from "../ui/AboutSection";
 import Clients from "../components/Clients";
+import Blogs from "../Ui/Blogs";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <Partners />
       <AboutSection />
       <OurServices />
-      <Clients /> 
+      <Clients />
+      <Blogs />
     </>
   );
 }

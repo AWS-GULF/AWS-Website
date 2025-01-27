@@ -7,7 +7,8 @@ function Button({ children, disabled, to, type, onClick }) {
 
   const styles = {
     primary: base + " py-4 px-8 sm:px-12 sm:py-4 bg-primary  hover:bg-hover text-white",
-    primaryXl: base + " py-4 px-7 sm:px-20 sm:py-6 bg-primary  hover:bg-hover text-white tracking-wider",
+    primaryXl: base + " py-4 px-6 sm:px-20 sm:py-6 bg-primary w-[212px]  hover:bg-hover text-white tracking-wider",
+    primaryXlLight: base + "border border-primary w-[212px] px-6 sm:px-20 sm:py-6   hover:bg-slate-200 text-primary tracking-wider",
     primaryXlMoreW: base + " py-4 px-10 sm:px-[90px] sm:py-6 bg-primary  hover:bg-hover text-white tracking-wider",
     primaryTrans: base + " py-4 px-8 sm:px-12 sm:py-4 bg-white text-primary w-full    hover:bg-primary hover:text-white border border-hover font-mons tracking-wider ",
     round: base + "py-1  md:px-3 md:py-2 px-3.5 text-xs mx-2",

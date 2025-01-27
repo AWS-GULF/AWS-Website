@@ -24,8 +24,12 @@ export default function Hero() {
           </p>
         </div>
 
-<div className="button7 icons">
-<Button type="primaryXl">Contact Us Now</Button>
+<div className="buttonsAndIcons">
+<div className="flex gap-[30px] justify-start items-center  ">
+<p className=""><Button type="primaryXl">Contact Us Now</Button></p>
+<p><Button type="primaryXlLight">Marketing Services</Button></p>
+
+</div>
 
    <ul className="mt-[30px] flex  items-center sm:gap-7  gap-2 ">
     <li><img src={behance} alt="behance" /></li>

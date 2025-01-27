@@ -1,6 +1,7 @@
 import React from "react";
 import quote from "../../public/assets/icons/gridicons_quote.svg";
 import ClientsSlider from "./ClientsSlider";
+import Button from "./Button";
 
 export default function Clients() {
   return (
@@ -19,14 +20,14 @@ export default function Clients() {
             <h4 className="mt-6">Hossam Nasser</h4>
             <p className="mt-2">CEO at HWLK</p>
           </p>
-     
         </div>
+        <p className="pt-[40px] ps-1">
+          <Button type="linkBtn">WRITE YOUR TESTIMONIAL</Button>
+        </p>
       </div>
 
       <div className="w-1/2  flex justify-center items-start">
-      
-      
-      <ClientsSlider />
+        <ClientsSlider />
       </div>
     </div>
   );

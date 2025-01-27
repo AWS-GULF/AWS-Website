@@ -47,11 +47,13 @@ export default function AboutSection() {
               <li>Interactive User Experience</li>
               <li>Strategic Branding & Graphics </li>
               <li className="mb-[30px]">AI-Driven Solutions</li>
-              <div className="mb-36"><Button type="linkBtn">More About Us</Button></div>
+              <div className="mb-36">
+                <Button type="linkBtn">More About Us</Button>
+              </div>
             </ul>
           </div>
           <div className="ms-8 ">
-            <Button type="primaryXl">Technology</Button>
+            <Button type="primaryXlMoreW">Technology</Button>
             <ul className="text-[14px] mt-4 text-secondary">
               <li>UX UI Design</li>
               <li>Native & Flutter Mobile Apps Coding</li>
