@@ -75,7 +75,7 @@ export default function ITandHardware() {
         </p>
       </div>
 
-      <div className="flex justify-start items-start px-12 pt-8 ">
+      <div className="flex justify-start items-start px-12 pt-8 mb-[60px]  ">
         <div className="flex-col justify-start items-start  w-3/4">
           <h4 className="font-mons text-[#000] pb-4 text-[20px] tracking-[2px] font-[600]">
             1- IT Hardware Products:
@@ -92,6 +92,13 @@ export default function ITandHardware() {
             performance and reliability for your infrastructure.
           </p>
           <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            3- Network Equipment:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Providing high-quality IT hardware products to ensure optimal
+            performance and reliability for your infrastructure.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
             4- Surveillance Equipment:{" "}
           </h4>
           <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
@@ -100,9 +107,60 @@ export default function ITandHardware() {
           </p>
         </div>
         <div className="w-1/4 ps-4 flex items-center">
-          <img src={accurate} className="" alt="" />
+          <img src={accurate} className="w-[437px] h-[367px]" alt="" />
         </div>
       </div>
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+      <div className="flex-col justify-start items-start px-12">
+        <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
+          Data Center Development{" "}
+        </h2>
+        <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
+          Sindion Technology provides end-to-end data center development
+          services, ensuring reliability and efficiency at every stage:
+        </p>
+      </div>
+
+      <div className="flex justify-start items-start px-12 pt-8 mb-[60px]  ">
+        <div className="w-1/4 ps-4 flex items-center">
+          <img src={qc} className="w-[437px] h-[367px] " alt="" />
+        </div>
+        <div className="flex-col justify-start items-start  w-3/4 ps-3">
+          <h4 className="font-mons text-[#000] pb-4 text-[20px] tracking-[2px] font-[600]">
+            1- Planning and Designing:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Crafting detailed plans and designs to meet your business
+            requirements and up-time standards.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            2- IT Hardware Equipment and Configuration:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Delivering and configuring top-tier hardware for seamless
+            integration into your data center.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            3- Implementation:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Executing the development process with precision to ensure optimal
+            functionality.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            4- Commissioning and Testing:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Conducting rigorous testing and commissioning to guarantee
+            performance, scalability, and compliance.
+          </p>
+        </div>
+      </div>
+
+
+
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
     </div>
   );
 }
