@@ -1,13 +1,13 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import sr from "../../public/assets/icons/sr.svg";
 import accurate from "../../public/assets/images/accurate.png";
 import qc from "../../public/assets/images/qc.jpeg";
 import hwlk from "../../public/assets/images/hwlk.svg";
 import nfaa from "../../public/assets/images/nfaa.svg";
-import security from "../../public/assets/images/security.svg";
+// import security from "../../public/assets/images/security.svg";
 import tsw from "../../public/assets/images/tsw.png";
 import Button from "../components/Button";
-import kotlin from "../../public/assets/images/kotlin.svg";
+// import kotlin from "../../public/assets/images/kotlin.svg";
 import node from "../../public/assets/images/node.svg";
 import oracle from "../../public/assets/images/oracle.svg";
 import radius from "../../public/assets/images/radius.svg";
@@ -92,7 +92,7 @@ export default function UiUx() {
             such as color palettes, shapes, fonts, styles, buttons, and overall
             design direction. Think of your digital product as a bespoke
             masterpiece—crafted to your exact specifications, with limitless
-            possibilities to showcase your brand's essence.
+            possibilities to showcase your brands essence.
           </p>
         </div>
       </div>
