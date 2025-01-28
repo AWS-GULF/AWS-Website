@@ -5,8 +5,8 @@ import OurServices from "../ui/OurServices";
 import Partners from "../ui/Partners";
 // import Footer from "../ui/Footer";
 import AboutSection from "../ui/AboutSection";
-import Clients from "../Ui/Clients";
-import Blogs from "../Ui/Blogs";
+import Clients from "../ui/Clients";
+import Blogs from "../ui/Blogs";
 import { useEffect } from "react";
 
 export default function Home() {
