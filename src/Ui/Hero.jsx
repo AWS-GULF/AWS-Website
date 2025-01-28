@@ -7,6 +7,7 @@ import insta from "../../public/assets/icons/insta.svg";
 import behance from "../../public/assets/icons/behance.svg";
 import snap from "../../public/assets/icons/snap.svg";
 import linked from "../../public/assets/icons/linked.svg";
+import { ModalXl } from "../components/Modal";
 
 export default function Hero() {
   return (
@@ -26,7 +27,7 @@ export default function Hero() {
 
 <div className="buttonsAndIcons">
 <div className="flex gap-[30px] justify-start items-center  ">
-<p className=""><Button type="primaryXl">Contact Us Now</Button></p>
+<p className=""><ModalXl/></p>
 <p><Button type="primaryXlLight">Marketing Services</Button></p>
 
 </div>

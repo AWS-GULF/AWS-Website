@@ -3,6 +3,7 @@ import social from "../../public/assets/images/social.png";
 import cameras from "../../public/assets/images/cameras.png";
 import lights from "../../public/assets/images/lights.png";
 import Button from "../components/Button";
+import { ModalXl } from "../components/Modal";
 
 export default function Blogs() {
   return (
@@ -88,9 +89,9 @@ export default function Blogs() {
           extraordinary together!
         </p>
 
-       <p className="ps-[100px] ">
-<Button type="primaryXl">Get in Touch</Button>
-       </p>
+        <p className="ps-[100px] ">
+          <ModalXl />
+        </p>
       </div>
     </>
   );
