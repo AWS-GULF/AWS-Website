@@ -1,18 +1,8 @@
 import React, { useEffect } from "react";
 import sr from "../../public/assets/icons/sr.svg";
 import accurate from "../../public/assets/images/accurate.png";
-import qc from "../../public/assets/images/qc.jpeg";
-import hwlk from "../../public/assets/images/hwlk.svg";
-import nfaa from "../../public/assets/images/nfaa.svg";
 import security from "../../public/assets/images/security.svg";
-import tsw from "../../public/assets/images/tsw.png";
-import Button from "../components/Button";
-import kotlin from "../../public/assets/images/kotlin.svg";
-import node from "../../public/assets/images/node.svg";
-import oracle from "../../public/assets/images/oracle.svg";
-import radius from "../../public/assets/images/radius.svg";
-import tail from "../../public/assets/images/tail.svg";
-import python from "../../public/assets/images/python.png";
+import { Link, Element } from "react-scroll";
 
 export default function ITandHardware() {
   useEffect(() => {
@@ -51,29 +41,63 @@ export default function ITandHardware() {
       <div className="flex  justify-center items-center pb-16 ">
         <ul className="flex  justify-center items-center ">
           <li className="pe-6 font-mons text-[16px] text-primary font-bold p-4 hover:bg-hover hover:rounded-[10px] hover:transition-all hover:duration-200">
-            IT Hardware & Software Solutions
+            <Link
+              to="ITHardware"
+              spy={true}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              {" "}
+              IT Hardware & Software Solutions
+            </Link>
           </li>
           <li className="pe-6 font-mons text-[16px] text-primary font-bold p-4 hover:bg-hover hover:rounded-[10px] hover:transition-all hover:duration-200">
-            Data Center Development
+            <Link
+              to=" Data Center "
+              spy={true}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              {" "}
+              Data Center Development
+            </Link>
           </li>
           <li className="pe-6 font-mons text-[16px] text-primary font-bold p-4 hover:bg-hover hover:rounded-[10px] hover:transition-all hover:duration-200">
-            Network Services
+            <Link
+              to="Network"
+              spy={true}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              {" "}
+              Network Services
+            </Link>
           </li>
           <li className="pe-6 font-mons text-[16px] text-primary font-bold p-4 hover:bg-hover hover:rounded-[10px] hover:transition-all hover:duration-200">
-            IT Professional Services
+            <Link
+              to="Professional"
+              spy={true}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              {" "}
+              IT Professional Services
+            </Link>
           </li>
         </ul>
       </div>
 
-      <div className="flex-col justify-start items-start px-12">
-        <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
-          IT Professional Services
-        </h2>
-        <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
-          Sindion Technology offers a comprehensive range of hardware solutions
-          to meet diverse business needs, including:
-        </p>
-      </div>
+      <Element name="ITHardware">
+        <div className="flex-col justify-start items-start px-12">
+          <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
+            IT Professional Services
+          </h2>
+          <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
+            Sindion Technology offers a comprehensive range of hardware
+            solutions to meet diverse business needs, including:
+          </p>
+        </div>
+      </Element>
 
       <div className="flex justify-start items-start px-12 pt-8 mb-[60px]  ">
         <div className="flex-col justify-start items-start  w-3/4">
@@ -111,16 +135,17 @@ export default function ITandHardware() {
         </div>
       </div>
       {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-
-      <div className="flex-col justify-start items-start px-12">
-        <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
-          Data Center Development{" "}
-        </h2>
-        <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
-          Sindion Technology provides end-to-end data center development
-          services, ensuring reliability and efficiency at every stage:
-        </p>
-      </div>
+      <Element name=" Data Center ">
+        <div className="flex-col justify-start items-start px-12">
+          <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
+            Data Center Development{" "}
+          </h2>
+          <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
+            Sindion Technology provides end-to-end data center development
+            services, ensuring reliability and efficiency at every stage:
+          </p>
+        </div>
+      </Element>
 
       <div className="flex justify-start items-start px-12 pt-8 mb-[60px]  ">
         <div className="w-1/4 ps-4 flex items-center">
@@ -159,17 +184,18 @@ export default function ITandHardware() {
       </div>
 
       {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-
-      <div className="flex-col justify-start items-start px-12">
-        <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
-          Network Services{" "}
-        </h2>
-        <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
-          Sindion Technology offers customized network solutions and
-          professional services in network architecture, information security,
-          and unified communications:
-        </p>
-      </div>
+      <Element name="Network">
+        <div className="flex-col justify-start items-start px-12">
+          <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
+            Network Services{" "}
+          </h2>
+          <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
+            Sindion Technology offers customized network solutions and
+            professional services in network architecture, information security,
+            and unified communications:
+          </p>
+        </div>
+      </Element>
 
       <div className="flex justify-start items-start px-12 pt-8 mb-[60px]  ">
         <div className="flex-col justify-start items-start  w-3/4 ps-3">
@@ -201,9 +227,67 @@ export default function ITandHardware() {
             Implementing video telephony solutions to enhance remote
             communication and collaboration.
           </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            5- Wireless Network Solutions:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Providing secure and reliable wireless network solutions to support
+            mobility and flexibility in your operations.
+          </p>
         </div>
+        <div className="w-1/4 ps-4 flex items-center pt-20">
+          <img src={security} className="w-[437px] h-[367px] " alt="" />
+        </div>
+      </div>
+
+      {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      <Element name="Professional">
+        <div className="flex-col justify-start items-start px-12">
+          <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
+            IT Professional Services{" "}
+          </h2>
+          <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
+            Sindion Technology delivers top-tier IT professional services to
+            ensure seamless integration and operational excellence:
+          </p>
+        </div>
+      </Element>
+
+      <div className="flex justify-start items-start px-12 pt-8 mb-[60px]  ">
         <div className="w-1/4 ps-4 flex items-center">
           <img src={accurate} className="w-[437px] h-[367px] " alt="" />
+        </div>
+        <div className="flex-col justify-start items-start  w-3/4 ps-3">
+          <h4 className="font-mons text-[#000] pb-4 text-[20px] tracking-[2px] font-[600]">
+            1- Commissioning and Testing for Fiber Optics:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Comprehensive services for fiber optics, including laying,
+            termination, and splicing to ensure optimal performance.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            2- Passive Components Installation for Fiber Optics:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Expert installation of passive components to enhance the efficiency
+            and reliability of fiber optic networks.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            3- Installation and Configuration Services for Certified Hardware
+            with SLA Agreement:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Providing installation and configuration services for all certified
+            hardware, backed by Service Level Agreements (SLA) for guaranteed
+            support.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            4- Installation and Configuration of Surveillance Equipment:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal pb-10">
+            Delivering end-to-end installation and configuration services for
+            advanced surveillance systems to ensure secure environments.
+          </p>
         </div>
       </div>
     </div>

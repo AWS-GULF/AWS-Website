@@ -3,7 +3,7 @@ import global from "../../public/assets/icons/Globe.svg";
 
 import Button from "../components/Button";
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 export default function NavBar() {
   const [theme, setTheme] = useState("light");
@@ -45,13 +45,13 @@ export default function NavBar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li className="text-[16x] font-mons font-[500] text-secondary">
-                <a>Services</a>
+                <NavLink>Services</NavLink>
                 <ul className="p-2">
                   <li className="text-[16x] font-mons font-[500] text-secondary">
-                    <a>1</a>
+                    <NavLink to={"/webdevelopment"}>Web Development</NavLink>
                   </li>
                   <li className="text-[16x] font-mons font-[500] text-secondary">
-                    <a>2</a>
+                    <NavLink></NavLink>
                   </li>
                 </ul>
               </li>
@@ -86,29 +86,42 @@ export default function NavBar() {
             <li>
               <details>
                 <summary className=" !bg-transparent  !rounded-none text-[16x]  font-mons font-[500] hover:border-b-[5px]   hover:bg-transparent hover:border-primary hover:pb-3 text-secondary ms-10 me-[45px] ">
-                  <li className=" "> Services</li>
+                  <NavLink className=" "> Services</NavLink>
                 </summary>
                 <ul className="p-2">
                   <li>
-                    <a>1</a>
+                    <NavLink to={"/webdevelopment"}>Web Development</NavLink>
                   </li>
                   <li>
-                    <a>2</a>
+                    <NavLink to={"/mobiledevelopment"}>
+                      Mobile Development
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to={"/qualityassurance"}>
+                      Quality Assurance
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to={"/uiuxdesign"}>UI & UX </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to={"/itandhardware"}>IT & Hardware</NavLink>
                   </li>
                 </ul>
               </details>
             </li>
             <li className="!bg-transparent  !rounded-none text-[16x]  font-mons font-[500] hover:border-b-[5px]  hover:bg-transparent hover:border-primary hover:pb-3 text-secondary  me-[45px] ">
-              <a className=" hover:bg-transparent">Work</a>
+              <Link className=" hover:bg-transparent">Work</Link>
             </li>
             <li className="!bg-transparent  !rounded-none text-[16x]  font-mons font-[500] hover:border-b-[5px]  hover:bg-transparent hover:border-primary hover:pb-3 text-secondary  me-[45px]">
-              <a className=" hover:bg-transparent">About</a>
+              <Link className=" hover:bg-transparent">About</Link>
             </li>
             <li className="!bg-transparent  !rounded-none text-[16x]  font-mons font-[500] hover:border-b-[5px]  hover:bg-transparent hover:border-primary hover:pb-3 text-secondary  me-[45px]">
-              <a className=" hover:bg-transparent">Careers</a>
+              <Link className=" hover:bg-transparent">Careers</Link>
             </li>
             <li className="text-[16x] font-mons font-[500] text-secondary me-[125px] hover:border-b-[5px]   hover:border-primary hover:pb-3     ">
-              <a className=" hover:bg-transparent">Blog</a>
+              <Link className=" hover:bg-transparent">Blog</Link>
             </li>
           </ul>
         </div>
