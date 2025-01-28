@@ -7,8 +7,12 @@ import Partners from "../ui/Partners";
 import AboutSection from "../ui/AboutSection";
 import Clients from "../Ui/Clients";
 import Blogs from "../Ui/Blogs";
+import { useEffect } from "react";
 
 export default function Home() {
+    useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
   return (
     <>
       <Hero />

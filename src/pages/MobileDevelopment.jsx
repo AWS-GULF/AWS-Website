@@ -4,12 +4,19 @@ import accurate from "../../public/assets/images/accurate.png";
 import qc from "../../public/assets/images/qc.jpeg";
 import hwlk from "../../public/assets/images/hwlk.svg";
 import nfaa from "../../public/assets/images/nfaa.svg";
+import security from "../../public/assets/images/security.svg";
 import tsw from "../../public/assets/images/tsw.png";
 import Button from "../components/Button";
-export default function QualityAssurance() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+import kotlin from "../../public/assets/images/kotlin.svg";
+import node from "../../public/assets/images/node.svg";
+import oracle from "../../public/assets/images/oracle.svg";
+import radius from "../../public/assets/images/radius.svg";
+import python from "../../public/assets/images/python.png";
+
+export default function MobileDevelopment() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <div className="  sm:ms-12 sm:me-12">
       <div className=" mt-16 mb-14 flex justify-center items-center">
@@ -21,33 +28,44 @@ export default function QualityAssurance() {
 
       <div className="flex justify-center items-center ">
         <h2 className="text-5xl font-mons font-bold mb-[80px] text-center  tracking-[4.8px] leading-[75px] ">
-          We ensure flawless performance and reliability for your software
+          Innovative mobile solutions to grow your business on the go.{" "}
         </h2>
+      </div>
+
+      <div className="flex justify-center items-center  ps-[121px] pe-[121px] mb-[100px]">
+        <div className="flex ">
+          <img src={kotlin} className="pe-[87px]" alt="kotlin" />
+          <img src={oracle} className="pe-[87px]" alt="oracle" />
+          <img src={python} className="pe-[87px]" alt="python" />
+          <img src={radius} className="pe-[87px]" alt="radius" />
+          <img src={node} className="pe-[87px]" alt="node" />
+        </div>
       </div>
 
       <div className="px-[121px] flex-col justify-center items-center">
         <h1 className="text-center  mb-[20px] text-primary font-mons text-[32px] tracking-[3.2px] font-[500]">
-          Quality Assurance
+          Mobile Development{" "}
         </h1>
         <p className="text-aboutCont text-center font-mons font-normal leading-[30px] tracking-[1.6px] mb-[60px] ">
-          We believe in fostering a strong, collaborative partnership with our
-          clients. Ensuring the quality, functionality, and reliability of the
-          products we deliver is a responsibility we take seriously. Beyond
-          meeting expectations, we proactively identify and resolve potential
-          risks and challenges, striving to exceed contractual commitments with
-          excellence.
+          We create innovative, one-of-a-kind iOS and Android applications with
+          exceptional designs and seamless user experiences. Our mobile
+          solutions are designed to elevate your business, showcase your
+          offerings, and captivate your audience, ensuring lasting engagement
+          and satisfaction.
         </p>
       </div>
 
       <div className="flex  justify-center items-center px-[121px] mb-16 gap-16 ">
         <div className="w-3/4 pt-14 flex-col justify-center items-center ps-1 mt-[-30px] ">
           <h4 className="font-mons text-[20px] font-[600] tracking-[2px] mb-4  ">
-            Accurate Deliveries
+            UX Design
           </h4>
           <p className="font-mons text-[16px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
-            Our development team is committed to providing realistic and precise
-            timelines for project milestones. This approach ensures timely
-            delivery without ever compromising the quality of the final product.
+            Our approach to native app development is rooted in a human-centered
+            philosophy, inspired by the timeless principles of minimalism. By
+            prioritizing elegance, simplicity, and the elimination of
+            unnecessary elements, we craft apps that keep users engaged and
+            delighted
           </p>
         </div>
 
@@ -62,14 +80,13 @@ export default function QualityAssurance() {
         </div>
         <div className="w-3/4 pt-14 flex-col justify-center items-center ps-1 mt-[-30px] ">
           <h4 className="font-mons text-[20px] font-[600] tracking-[2px] mb-4  ">
-            Quality Control
+            Speed{" "}
           </h4>
           <p className="font-mons text-[16px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
-            While a completely bug-free environment is unattainable, we have
-            developed highly effective testing and diagnostic strategies. These
-            cover both functional and non-functional aspects of your product,
-            ensuring a smooth development process and minimizing friction for
-            end users.
+            Speed is critical to delivering a seamless user experience. We
+            ensure your app loads quickly, responds efficiently, and operates
+            flawlessly by integrating the latest speed optimization
+            technologies, making every interaction smooth and satisfying.
           </p>
         </div>
       </div>
@@ -77,18 +94,18 @@ export default function QualityAssurance() {
       <div className="flex  justify-center items-center px-[121px] mb-16 gap-16 ">
         <div className="w-3/4 pt-14 flex-col justify-center items-center ps-1 mt-[-30px] ">
           <h4 className="font-mons text-[20px] font-[600] tracking-[2px] mb-4  ">
-            Account Management
+            Security{" "}
           </h4>
           <p className="font-mons text-[16px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
-            For enterprise clients, we assign a dedicated professional from our
-            pro-services team to manage your account exclusively throughout the
-            entire development and delivery process. This ensures personalized
-            support and seamless communication at every stage.
+            Your data and your users' sensitive information are our top
+            priorities. We implement robust security measures to safeguard your
+            product, protect user identities, and maintain the highest level of
+            data integrity and trust.
           </p>
         </div>
 
         <div className=" w-1/4">
-          <img src={accurate} className="w-full" alt="" />
+          <img src={security} className="w-full" alt="" />
         </div>
       </div>
 
@@ -97,12 +114,11 @@ export default function QualityAssurance() {
           Case Studies
         </h1>
         <p className="text-aboutCont text-center font-mons font-normal leading-[30px] tracking-[1.6px] mb-[60px] ">
-          We believe in fostering a strong, collaborative partnership with our
-          clients. Ensuring the quality, functionality, and reliability of the
-          products we deliver is a responsibility we take seriously. Beyond
-          meeting expectations, we proactively identify and resolve potential
-          risks and challenges, striving to exceed contractual commitments with
-          excellence.
+          We stick to tried and true digital marketing strategies that we know
+          will have the highest impact on your bottom line. Forget the fluff and
+          empty promises of other companies, we offer services that are more
+          likely to be profitable and sustainable. Check out our suite of
+          digital marketing services designed to help accelerate your funnel.
         </p>
       </div>
 

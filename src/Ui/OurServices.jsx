@@ -34,7 +34,7 @@ export default function OurServices() {
               commitments with excellence.
             </p>
             <div className="card-actions justify-start mt-3 ">
-              <Button type="linkBtn" to={"/qulityassurance"}>See More</Button>
+              <Button type="linkBtn" to={"/qualityassurance"}>See More</Button>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function OurServices() {
               engagement and satisfaction.
             </p>
             <div className="card-actions justify-start mt-3 ">
-              <Button type="linkBtn">See More</Button>
+              <Button type="linkBtn" to={"/mobiledevelopment"}>See More</Button>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function OurServices() {
               you can focus on streamlining and enhancing your workflow
             </p>
             <div className="card-actions justify-start mt-3 ">
-              <Button type="linkBtn">See More</Button>
+              <Button type="linkBtn" to={"/webdevelopment"}>See More</Button>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function OurServices() {
               and management services and solutions.
             </p>
             <div className="card-actions justify-start mt-3 ">
-              <Button type="linkBtn">See More</Button>
+              <Button type="linkBtn" to={"/itandhardware"} >See More</Button>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function OurServices() {
               Development, and Operations.
             </p>
             <div className="card-actions justify-start mt-3 ">
-              <Button type="linkBtn">See More</Button>
+              <Button type="linkBtn" to={"/staff"}>See More</Button>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@ export default function OurServices() {
               the experience both seamless and engaging.
             </p>
             <div className="card-actions justify-start mt-3 ">
-              <Button type="linkBtn">See More</Button>
+              <Button type="linkBtn" to={"/uiuxdesign"}>See More</Button>
             </div>
           </div>
         </div>

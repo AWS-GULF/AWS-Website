@@ -3,6 +3,7 @@ import global from "../../public/assets/icons/Globe.svg";
 
 import Button from "../components/Button";
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 
 export default function NavBar() {
   const [theme, setTheme] = useState("light");
@@ -70,11 +71,14 @@ export default function NavBar() {
           </div>
 
           <div className=" flex-col text-center justify-center  items-center  ps-10 w-20  ">
-            <img src={logo} className=" w-full" />
-            <p className="text-[10px] font-Arial text-primary font-semibold">
-              {" "}
-              Gulf
-            </p>
+            <Link to={"/"}>
+              <img src={logo} className=" w-full" />
+
+              <p className="text-[10px] font-Arial text-primary font-semibold">
+                {" "}
+                Gulf
+              </p>
+            </Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
