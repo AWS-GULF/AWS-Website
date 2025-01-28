@@ -124,7 +124,7 @@ export default function ITandHardware() {
 
       <div className="flex justify-start items-start px-12 pt-8 mb-[60px]  ">
         <div className="w-1/4 ps-4 flex items-center">
-          <img src={qc} className="w-[437px] h-[367px] " alt="" />
+          <img src={accurate} className="w-[437px] h-[367px] " alt="" />
         </div>
         <div className="flex-col justify-start items-start  w-3/4 ps-3">
           <h4 className="font-mons text-[#000] pb-4 text-[20px] tracking-[2px] font-[600]">
@@ -158,9 +158,54 @@ export default function ITandHardware() {
         </div>
       </div>
 
+      {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
+      <div className="flex-col justify-start items-start px-12">
+        <h2 className="font-mons text-[32px]  tracking-[3.2px] font-[500] text-primary pb-5">
+          Network Services{" "}
+        </h2>
+        <p className="text-aboutCont font-mons text-[20px] tracking-[2px] leading-[30px] ps-1 ">
+          Sindion Technology offers customized network solutions and
+          professional services in network architecture, information security,
+          and unified communications:
+        </p>
+      </div>
 
-      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      <div className="flex justify-start items-start px-12 pt-8 mb-[60px]  ">
+        <div className="flex-col justify-start items-start  w-3/4 ps-3">
+          <h4 className="font-mons text-[#000] pb-4 text-[20px] tracking-[2px] font-[600]">
+            1- Network Infrastructure Designing and Implementation:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Designing and implementing robust network infrastructures tailored
+            to your business needs.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            2- Directory Services Configuration:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Configuring directory services to ensure seamless management and
+            access control across your network.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            3- E-mail and Print Servers Configuration:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Setting up and optimizing email and print servers for efficient
+            communication and document management.
+          </p>
+          <h4 className="font-mons text-[#000] pb-4 pt-6 text-[20px] tracking-[2px] font-[600]">
+            4- Video Telephony:{" "}
+          </h4>
+          <p className="font-mons text-[#000] text-[16px] tracking-[1.6px] leading-[30px] font-normal">
+            Implementing video telephony solutions to enhance remote
+            communication and collaboration.
+          </p>
+        </div>
+        <div className="w-1/4 ps-4 flex items-center">
+          <img src={accurate} className="w-[437px] h-[367px] " alt="" />
+        </div>
+      </div>
     </div>
   );
 }
