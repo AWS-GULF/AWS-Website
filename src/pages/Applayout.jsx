@@ -8,7 +8,7 @@ export default function Applayout() {
     //   <NavBar />
     //   <Outlet />
     //   <Footer />
-    // </>
+    // </>?/
 
     <>
       <div className="flex flex-col min-h-screen">
