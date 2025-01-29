@@ -2,7 +2,29 @@ import { useEffect, useState } from "react";
 import sr from "../../public/assets/icons/sr.svg";
 import srl from "../../public/assets/images/sr-gray.svg";
 import team from "../../public/assets/images/about-team-img.png";
+import pers1 from "../../public/assets/images/pers1.png";
+import pers2 from "../../public/assets/images/pers2.png";
+import pers3 from "../../public/assets/images/pers3.png";
 import { ModalXl } from "../components/Modal";
+import hwlk from "../../public/assets/images/hwlk.svg";
+import nfaa from "../../public/assets/images/nfaa.svg";
+import opm from "../../public/assets/images/opm.png";
+import roag from "../../public/assets/images/roag.png";
+import thmeen from "../../public/assets/images/thmeen.png";
+import value from "../../public/assets/images/value.png";
+import akark from "../../public/assets/images/akark.svg";
+import nata from "../../public/assets/images/nata.png";
+import orera from "../../public/assets/images/orera.jpeg";
+import axis from "../../public/assets/images/axis.jpeg";
+import century from "../../public/assets/images/century.png";
+
+
+
+
+
+
+
+
 
 export default function About() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -147,8 +169,108 @@ export default function About() {
           </p>
         </div>
         <div className="w-1/2 ">
-        <img src={team} alt="team-image" className="w-full h-full" /></div>
+          <img src={team} alt="team-image" className="w-full h-full" />
+        </div>
       </div>
+      <p className=" font-mons text-[28px] font-bold tracking-[.64px]  mb-8  ">
+        Meet the Visionaries Behind AMS GULF
+      </p>
+
+      {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+
+<div className="flex mb-[100px] gap-4">
+
+<div className="card bg-base-100 w-96 p-4 h-[500px] border border-[##E0E0E0">
+  <figure className="rounded-[10px]">
+    <img
+      src={pers1}
+      alt="person"
+      className="rounded-[10px] w-[405px] h-[407px] mb-4 " />
+  </figure>
+  <div className=" items-center text-center">
+    <h2 className="text-center text-primary font-mons font-[600] tracking-[1.6]">Mostafa Karam</h2>
+    <p>CMO</p>
+  
+  </div>
+</div>
+
+<div className="card bg-base-100 w-96 p-4 h-[500px] border border-[##E0E0E0">
+  <figure className="rounded-[10px]">
+    <img
+      src={pers2}
+      alt="person"
+      className="rounded-[10px] w-[405px] h-[407px] mb-4 " />
+  </figure>
+  <div className=" items-center text-center">
+    <h2 className="text-center text-primary font-mons font-[600] tracking-[1.6]">Mahmoud Mohamed</h2>
+    <p>CTO</p>
+  
+  </div>
+</div>
+
+<div className="card bg-base-100 w-96 p-4 h-[500px] border border-[##E0E0E0">
+  <figure className="rounded-[10px]">
+    <img
+      src={pers3}
+      alt="person"
+      className="rounded-[10px] w-[405px] h-[407px] mb-4 " />
+  </figure>
+  <div className=" items-center text-center">
+    <h2 className="text-center text-primary font-mons font-[600] tracking-[1.6]">Ahmed Mohamed</h2>
+    <p>CEO</p>
+  
+  </div>
+</div>
+
+</div>
+
+
+  {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+
+
+  <div className="flex justify-center items-center ">
+    <h3 className="font-mons text-[32px] font-bold tracking-[5.12px]">
+    Our Leading Brands Partnerships
+    </h3>
+
+  
+
+
+  </div>
+
+
+  <div className="flex-col mt-[60px]">
+
+<div className="flex  justify-between items-center">
+            <img src={nfaa} className="h-[70px] w-[190px]" alt="" />
+            <img src={nata} alt=""  className="h-[70px] w-[190px]" />
+            <img src={hwlk} alt=""  className="h-[70px] w-[190px]" />
+            <img src={axis} alt=""  className="h-[70px] w-[190px]" />
+            <img src={thmeen} alt=""  className="h-[70px] w-[190px]" />
+
+
+</div>
+<div className="flex  justify-between items-center mt-[80px] mb-[100px]">
+            <img src={value} className="h-[70px] w-[190px]" alt="" />
+            <img src={opm} alt=""  className="h-[70px] w-[190px]" />
+            <img src={akark} alt=""  className="h-[70px] w-[190px]" />
+            <img src={roag} alt=""  className="h-[70px] w-[190px]" />
+            <img src={century} alt=""  className="h-[70px] w-[190px]" />
+
+
+</div>
+
+
+
+    </div>
+
+
+
+
+
+
     </div>
   );
 }
