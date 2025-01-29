@@ -13,7 +13,7 @@ import roag from "../../public/assets/images/roag.png";
 import thmeen from "../../public/assets/images/thmeen.png";
 import value from "../../public/assets/images/value.png";
 import akark from "../../public/assets/images/akark.svg";
-import nata from "../../public/assets/images/nata.png";
+// import nata from "../../public/assets/images/nata.png";
 import orera from "../../public/assets/images/orera.jpeg";
 import axis from "../../public/assets/images/axis.jpeg";
 import century from "../../public/assets/images/century.png";
@@ -245,7 +245,7 @@ export default function About() {
 
 <div className="flex  justify-between items-center">
             <img src={nfaa} className="h-[70px] w-[190px]" alt="" />
-            <img src={nata} alt=""  className="h-[70px] w-[190px]" />
+            <img src={nfaa} alt=""  className="h-[70px] w-[190px]" />
             <img src={hwlk} alt=""  className="h-[70px] w-[190px]" />
             <img src={axis} alt=""  className="h-[70px] w-[190px]" />
             <img src={thmeen} alt=""  className="h-[70px] w-[190px]" />
