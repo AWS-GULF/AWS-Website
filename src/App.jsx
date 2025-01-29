@@ -8,6 +8,7 @@ import WebDevelopment from "./pages/WebDevelopment";
 import UiUx from "./pages/UiUx";
 import Staff from "./pages/Staff";
 import ITandHardware from "./pages/ITandHardware";
+import Work from "./pages/Work";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/work",
+        element: <Work/>,
       },
     ],
   },

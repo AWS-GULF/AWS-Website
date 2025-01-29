@@ -37,9 +37,9 @@ export default function About() {
     "Real-State Smart Solution",
   ];
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="  sm:ms-12 sm:me-12">
