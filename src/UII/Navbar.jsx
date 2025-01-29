@@ -25,7 +25,8 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="navbar bg-base-100 drop-shadow-md">
+    {/* sticky top-0 */}
+      <div className="navbar bg-base-100 drop-shadow-md ">
         <div className="navbar-start flex justify-start items-start sm:justify-start sm:items-start sm:flex-row">
           <div className="dropdown">
             <div
@@ -60,7 +61,7 @@ export default function NavBar() {
                     <NavLink to={"/webdevelopment"}>Web Development</NavLink>
                   </li>
                   <li className="text-[16x] font-mons font-[500] text-secondary">
-                    <NavLink></NavLink>
+                    <NavLink>fg</NavLink>
                   </li>
                 </ul>
               </li>
@@ -140,10 +141,10 @@ export default function NavBar() {
               </div>
             </li>
             <li className="!bg-transparent !rounded-none text-[16x] font-mons font-[500] hover:border-b-[5px] hover:bg-transparent hover:border-primary hover:pb-3 text-secondary me-[45px]">
-              <Link className="hover:bg-transparent">Work</Link>
+              <Link className="hover:bg-transparent" >Work</Link>
             </li>
             <li className="!bg-transparent !rounded-none text-[16x] font-mons font-[500] hover:border-b-[5px] hover:bg-transparent hover:border-primary hover:pb-3 text-secondary me-[45px]">
-              <Link className="hover:bg-transparent">About</Link>
+              <Link className="hover:bg-transparent"  to={"/about"}>About</Link>
             </li>
             <li className="!bg-transparent !rounded-none text-[16x] font-mons font-[500] hover:border-b-[5px] hover:bg-transparent hover:border-primary hover:pb-3 text-secondary me-[45px]">
               <Link className="hover:bg-transparent">Careers</Link>

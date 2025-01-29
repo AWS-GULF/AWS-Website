@@ -1,13 +1,13 @@
 // import About from "../ui/AboutSection";
-import Hero from "../ui/Hero";
+import Hero from "../UII/Hero";
 // import Navbar from "../ui/Navbar";
-import OurServices from "../ui/OurServices";
-import Partners from "../ui/Partners";
+import OurServices from "../UII/OurServices";
 // import Footer from "../ui/Footer";
-import AboutSection from "../ui/AboutSection";
-import Clients from "../ui/Clients";
-import Blogs from "../ui/Blogs";
+import AboutSection from "../UII/AboutSection";
+import Clients from "../UII/Clients";
+import Blogs from "../UII/Blogs";
 import { useEffect } from "react";
+import Partners from "../Uii/Partners";
 
 export default function Home() {
     useEffect(() => {

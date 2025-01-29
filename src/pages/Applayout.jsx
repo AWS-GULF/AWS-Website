@@ -1,14 +1,10 @@
 import { Outlet } from "react-router";
-import Footer from "../ui/Footer";
-import NavBar from "../Ui/Navbar";
+import Footer from "../UII/Footer";
+import NavBar from "../UII/Navbar";
 
 export default function Applayout() {
   return (
-    // <>
-    //   <NavBar />
-    //   <Outlet />
-    //   <Footer />
-    // </>?/
+   
 
     <>
       <div className="flex flex-col min-h-screen">
