@@ -9,7 +9,7 @@ import watnia from "../../public/assets/images/watnia.jpeg";
 import ministry from "../../public/assets/images/ministry.jpeg";
 import v from "../../public/assets/images/value.png";
 import akark from "../../public/assets/images/akark.svg";
-import nata from "../../public/assets/images/nata.png";
+import nat from "../../public/assets/images/nata.png";
 import orera from "../../public/assets/images/orera.jpeg";
 import axis from "../../public/assets/images/axis.jpeg";
 import ts from "../../public/assets/images/ts.jpeg";
@@ -26,7 +26,7 @@ const ClientsSlider = () => {
     { src: akark, alt: "akark" },
     { src: hwlk, alt: "hwlk" },
     { src: century, alt: "century" },
-    { src: nata, alt: "nata" },
+    { src: nat, alt: "nat" },
     { src: opm, alt: "opm" },
     { src: roag, alt: "opm" },
     { src: value, alt: "value" },
@@ -37,7 +37,6 @@ const ClientsSlider = () => {
     { src: axis, alt: "axis" },
     { src: century, alt: "century" },
     { src: century, alt: "century" },
-    
   ];
 
   return (
@@ -53,7 +52,6 @@ const ClientsSlider = () => {
         }}
         pagination={{
           clickable: true,
-         
         }}
         slidesPerGroup={3}
         loop={false}
