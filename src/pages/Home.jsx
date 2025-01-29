@@ -7,7 +7,7 @@ import AboutSection from "../UII/AboutSection";
 import Clients from "../UII/Clients";
 import Blogs from "../UII/Blogs";
 import { useEffect } from "react";
-import Partners from "../Uii/Partners";
+import Partners from "../UII/Partnerss";
 
 export default function Home() {
     useEffect(() => {

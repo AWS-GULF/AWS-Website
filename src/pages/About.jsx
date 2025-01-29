@@ -15,9 +15,9 @@ export default function About() {
     "Real-State Smart Solution",
   ];
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <div className="  sm:ms-12 sm:me-12">
@@ -130,8 +130,8 @@ export default function About() {
 
       {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
-      <div className="flex bg-black  ">
-        <div className="w-1/2 bg-red-200">
+      <div className="flex  gap-4  mb-[60px] ">
+        <div className="w-1/2">
           <p className="text-aboutCont font-mons text-[18px] tracking-[1.4px] leading-[35px] ">
             {" "}
             <span className="text-primary font-bold font-mons text-[24px] tracking-[1.68px] leading-[35px]">
@@ -146,7 +146,7 @@ export default function About() {
             ahead of the curve – you set the pace for the future.
           </p>
         </div>
-        <div className="w-1/2 bg-green-200">
+        <div className="w-1/2 ">
         <img src={team} alt="team-image" className="w-full h-full" /></div>
       </div>
     </div>
