@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Home from  "./pages/Home";
+import Home from "./pages/Home";
 import Applayout from "./pages/Applayout";
 import About from "./pages/About";
 import QualityAssurance from "./pages/QualityAssurance";
@@ -9,6 +9,8 @@ import UiUx from "./pages/UiUx";
 import Staff from "./pages/Staff";
 import ITandHardware from "./pages/ITandHardware";
 import Work from "./pages/Work";
+import Careers from "./pages/Careers";
+import JobDetails from "./pages/JobDetails";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/careers",
+        element: <Careers />,
       },
 
       {
@@ -50,9 +56,13 @@ const router = createBrowserRouter([
       },
       {
         path: "/work",
-        element: <Work/>,
+        element: <Work />,
       },
     ],
+  },
+  {
+    path: "/careers/:id",
+    element: <JobDetails />,
   },
 ]);
 

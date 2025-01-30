@@ -83,7 +83,7 @@ export default function Footer() {
 
       <p className="ms-[96px] me-[96px] text-center mt-10 mb-3">
         {" "}
-        &copy; 2024 ScaleUp Media. All rights reserved.
+        &copy; 2024 AWS Gulf . All rights reserved.
       </p>
     </>
   );

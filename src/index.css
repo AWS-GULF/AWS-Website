@@ -39,6 +39,12 @@
   border: 5px solid #badde0;
 }
 
-/* .slick-prev:before, .slick-next:before{
-    font-size: px !important
-} */
+.border-custom{
+  
+  
+
+  border-bottom: 4px solid  #003540 ;
+  padding-bottom:16px ;
+  border-radius: 0px 5px 5px  ;
+
+}

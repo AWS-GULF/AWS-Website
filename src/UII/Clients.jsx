@@ -30,11 +30,12 @@ export default function Clients() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
                   transition={{
-                    duration: 0.8,
+                    duration: 0.4,
                     ease: "easeInOut",
                   }}
                 >
-                  <p className="text-[#333] text-[16px] font-normal tracking-[1.6px] font-mons">
+                  {/* small */}
+                  <p className="text-[#333] text-[16px] font-normal tracking-[1.6px] font-mons ">
                     Recognizing the ever-evolving technological landscape and
                     rapidly changing market needs, the
                   </p>
@@ -47,13 +48,13 @@ export default function Clients() {
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
                   transition={{
-                    duration: 0.8,
+                    duration: 0.4,
                     ease: "easeInOut",
                   }}
                 >
-                  <p className="text-[#333] text-[16px] font-normal tracking-[1.6px] font-mons">
+                  <p className="text-[#333] text-[16px] font-normal tracking-[1.6px] font-mons ">
                     AWS is a forward-thinking IT system integrator and services
                     provider, established in 2024 with a focus on delivering
                     cutting-edge IT hardware solutions. Recognizing the
@@ -69,7 +70,7 @@ export default function Clients() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{
-                duration: 0,
+                duration: 0.2,
                 ease: "easeInOut",
               }}
             >

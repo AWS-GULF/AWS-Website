@@ -147,7 +147,7 @@ export default function NavBar() {
               <Link className="hover:bg-transparent"  to={"/about"}>About</Link>
             </li>
             <li className="!bg-transparent !rounded-none text-[16x] font-mons font-[500] hover:border-b-[5px] hover:bg-transparent hover:border-primary hover:pb-3 text-secondary me-[45px]">
-              <Link className="hover:bg-transparent">Careers</Link>
+              <Link className="hover:bg-transparent" to={"/careers"}>Careers</Link>
             </li>
             <li className="text-[16x] font-mons font-[500] text-secondary me-[125px] hover:border-b-[5px] hover:border-primary hover:pb-3">
               <Link className="hover:bg-transparent">Blog</Link>
