@@ -64,6 +64,7 @@ const router = createBrowserRouter([
     path: "/careers/:id",
     element: <JobDetails />,
   },
+  
 ]);
 
 function App() {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../../public/assets/icons/logo.svg";
 import { Link, useParams } from "react-router";
-import Application from "../components/Apllication";
+import Application from "../components/Software-components/Apllication";
 
 const jobDescriptions = {
   1: `We are looking for a Multimedia Marketing Project Manager who will manage client relationships while executing the content service. This role requires a strong marketing and sales operations mindset, project management skills, and proficiency in using AI, video editing, and SEO tools like SEMrush and Google Analytics. Additionally, the candidate must have expertise in creating logical HubSpot workflows and funnels to drive marketing and sales alignment.

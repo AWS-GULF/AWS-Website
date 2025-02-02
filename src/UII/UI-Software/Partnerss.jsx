@@ -1,4 +1,4 @@
-import SimpleSlider from "../components/Sliderr";
+import SimpleSlider from "../../components/Software-components/Sliderr";
 
 export default function Partners() {
   return (

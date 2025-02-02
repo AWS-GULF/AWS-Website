@@ -1,8 +1,8 @@
 import { useState } from "react";
-import hwlk from "../../public/assets/images/hwlk.svg";
-import nfaa from "../../public/assets/images/nfaa.svg";
-import ts from "../../public/assets/images/ts.jpeg";
-import Button from "./Button";
+import hwlk from "../../../public/assets/images/hwlk.svg";
+import nfaa from "../../../public/assets/images/nfaa.svg";
+import ts from "../../../public/assets/images/ts.jpeg";
+import Button from "../../components/Software-components/Button";
 
 const categories = [
   "All",

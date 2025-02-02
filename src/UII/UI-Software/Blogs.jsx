@@ -1,9 +1,9 @@
 import React from "react";
-import social from "../../public/assets/images/social.png";
-import cameras from "../../public/assets/images/cameras.png";
-import lights from "../../public/assets/images/lights.png";
-import Button from "../components/Button";
-import { ModalXl } from "../components/Modal";
+import social from "../../../public/assets/images/social.png";
+import cameras from "../../../public/assets/images/cameras.png";
+import lights from "../../../public/assets/images/lights.png";
+import Button from "../../components/Software-components/Button";
+import { ModalXl } from "../../components/Software-components/Modal";
 
 export default function Blogs() {
   return (

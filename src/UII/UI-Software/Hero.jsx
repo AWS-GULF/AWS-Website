@@ -1,13 +1,13 @@
-import Button from "../components/Button";
-import heroImg from "../../public/assets/images/34beae32-da62-437d-9af6-1c67cc073acd.png";
-import x from "../../public/assets/icons/x.svg";
-import faceBook from "../../public/assets/icons/facebook.svg";
-import youtube from "../../public/assets/icons/youtube.svg";
-import insta from "../../public/assets/icons/insta.svg";
-import behance from "../../public/assets/icons/behance.svg";
-import snap from "../../public/assets/icons/snap.svg";
-import linked from "../../public/assets/icons/linked.svg";
-import { ModalXl } from "../components/Modal";
+import Button from "../../components/Software-components/Button";
+import heroImg from "../../../public/assets/images/34beae32-da62-437d-9af6-1c67cc073acd.png";
+import x from "../../../public/assets/icons/x.svg";
+import faceBook from "../../../public/assets/icons/facebook.svg";
+import youtube from "../../../public/assets/icons/youtube.svg";
+import insta from "../../../public/assets/icons/insta.svg";
+import behance from "../../../public/assets/icons/behance.svg";
+import snap from "../../../public/assets/icons/snap.svg";
+import linked from "../../../public/assets/icons/linked.svg";
+import { ModalXl } from "../../components/Software-components/Modal";
 
 export default function Hero() {
   return (

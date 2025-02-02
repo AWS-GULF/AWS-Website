@@ -5,7 +5,7 @@ import team from "../../public/assets/images/about-team-img.png";
 import pers1 from "../../public/assets/images/pers1.png";
 import pers2 from "../../public/assets/images/pers2.png";
 import pers3 from "../../public/assets/images/pers3.png";
-import { ModalXl } from "../components/Modal";
+import { ModalXl } from "../components/Software-components/Modal";
 import hwlk from "../../public/assets/images/hwlk.svg";
 import nfaa from "../../public/assets/images/nfaa.svg";
 import opm from "../../public/assets/images/opm.png";

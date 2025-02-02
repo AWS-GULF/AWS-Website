@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-import Button from "./Button";
-import sr from "../../public/assets/icons/sr.svg";
+import Button from "../../components/Software-components/Button"
+import sr from "../../../public/assets/icons/sr.svg";
 
 // import { Button } from 'react-scroll';
 

@@ -5,7 +5,7 @@ import qc from "../../public/assets/images/qc.jpeg";
 import hwlk from "../../public/assets/images/hwlk.svg";
 import nfaa from "../../public/assets/images/nfaa.svg";
 import tsw from "../../public/assets/images/tsw.png";
-import Button from "../components/Button";
+import Button from "../components/Software-components/Button";
 export default function QualityAssurance() {
   useEffect(() => {
     window.scrollTo(0, 0);

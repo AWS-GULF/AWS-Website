@@ -1,5 +1,5 @@
-import testImg from "../../public/assets/images/cardTestImg.png";
-import Button from "../components/Button";
+import testImg from "../../../public/assets/images/cardTestImg.png";
+import Button from "../../components/Software-components/Button";
 export default function OurServices() {
   return (
     <div className="sm:ms-12 sm:me-12">

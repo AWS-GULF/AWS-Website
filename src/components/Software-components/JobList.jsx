@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import Button from "./Button";
+import Button from "../Software-components/Button";
 import { p } from "framer-motion/client";
 import { Description } from "@headlessui/react";
 

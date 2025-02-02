@@ -1,7 +1,7 @@
 import sr from "../../public/assets/icons/sr.svg";
-import ClientsSlider from "../components/ClientsSlider";
+import ClientsSlider from "../components/Software-components/ClientsSlider";
 
-import CardFilter from "../components/CardFilter";
+import CardFilter from "../components/Software-components/CardFilter";
 
 export default function Work() {
   return (

@@ -1,32 +1,32 @@
-import logo from "../../public/assets/icons/logo.svg";
-import x from "../../public/assets/icons/x.svg";
-import faceBook from "../../public/assets/icons/facebook.svg";
-import youtube from "../../public/assets/icons/youtube.svg";
-import insta from "../../public/assets/icons/insta.svg";
-import behance from "../../public/assets/icons/behance.svg";
-import snap from "../../public/assets/icons/snap.svg";
-import linked from "../../public/assets/icons/linked.svg";
+import logo from "../../../public/assets/icons/logo.svg";
+import x from "../../../public/assets/icons/x.svg";
+import faceBook from "../../../public/assets/icons/facebook.svg";
+import youtube from "../../../public/assets/icons/youtube.svg";
+import insta from "../../../public/assets/icons/insta.svg";
+import behance from "../../../public/assets/icons/behance.svg";
+import snap from "../../../public/assets/icons/snap.svg";
+import linked from "../../../public/assets/icons/linked.svg";
 export default function Footer() {
   return (
     <>
       <div className="sm:flex sm:justify-evenly sm:items-start sm:pt-16 w-full Footer border-t ">
-        <footer className="footer  text-base-content  sm:flex sm:justify-between sm:items-start  sm:ps-12 sm:pe-12  ">
+        <footer className="footer flex text-base-content  sm:flex sm:justify-between sm:items-start  sm:ps-12 sm:pe-12  ">
           <div className="w-[40%]">
             <aside>
-              <div className=" flex-col text-center justify-center  items-center w-36 mt-[-5px]  m-auto ">
-                <img src={logo} className="  w-full  " />
-                <p className="text-6 font-Arial text-primary font-semibold">
+              <div className=" flex-col text-center justify-start  items-start   w-36 mt-[-5px]  sm:m-auto ">
+                <img src={logo} className=" w-[50%] sm:w-full  " />
+                <p className="sm:text-6 text-sm font-Arial text-primary font-semibold w-[50%]  sm:w-full  ">
                   {" "}
                   Gulf
                 </p>
               </div>
 
-              <p className=" text-primary font-bold sm:text-3xl sm:tracking-widest text-center sm:ps-12  font-mons sm:mt-4">
+              <p className=" text-primary font-bold sm:text-3xl sm:tracking-widest text-center sm:ps-12  font-mons sm:mt-4 hidden sm:block">
                 Your Lighthouse To <br /> The Future
               </p>
             </aside>
           </div>
-          <div className="w-[60%] sm:flex sm:justify-evenly  sm:items-start ">
+          <div className="w-[80%] sm:w-[60%] sm:flex sm:justify-evenly flex justify-start items-start  sm:items-start ">
             <nav className="">
               <h6 className=" font-mons text-[24px] font-[500] text-primary mb-2 ">
                 Services

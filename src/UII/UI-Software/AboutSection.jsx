@@ -1,5 +1,5 @@
-import Button from "../components/Button";
-import WordAnimation from "../components/WordAnimation";
+import Button from "../../components/Software-components/Button";
+import WordAnimation from "../../components/Software-components/WordAnimation";
 
 export default function AboutSection() {
   return (

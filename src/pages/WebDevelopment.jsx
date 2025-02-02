@@ -6,7 +6,7 @@ import hwlk from "../../public/assets/images/hwlk.svg";
 import nfaa from "../../public/assets/images/nfaa.svg";
 import security from "../../public/assets/images/security.svg";
 import tsw from "../../public/assets/images/tsw.png";
-import Button from "../components/Button";
+import Button from "../components/Software-components/Button";
 import kotlin from "../../public/assets/images/kotlin.svg";
 import node from "../../public/assets/images/node.svg";
 import oracle from "../../public/assets/images/oracle.svg";

@@ -2,12 +2,12 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import cisco from "../../public/assets/images/cisci.png";
-import dell from "../../public/assets/images/dell.png";
-import kasper from "../../public/assets/images/kasper.jpg";
-import lenovo from "../../public/assets/images/lenovo.png";
-import microsoft from "../../public/assets/images/microsoft 1.jpg";
-import pep from "../../public/assets/images/pep.png";
+import cisco from "../../../public/assets/images/cisci.png";
+import dell from "../../../public/assets/images/dell.png";
+import kasper from "../../../public/assets/images/kasper.jpg";
+import lenovo from "../../../public/assets/images/lenovo.png";
+import microsoft from "../../../public/assets/images/microsoft 1.jpg";
+import pep from "../../../public/assets/images/pep.png";
 export default function SimpleSlider() {
   var settings = {
     dots: false,

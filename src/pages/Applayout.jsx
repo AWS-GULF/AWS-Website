@@ -1,6 +1,6 @@
 import { Outlet } from "react-router";
-import Footer from "../UII/Footer";
-import NavBar from "../UII/Navbar";
+import Footer from "../UII/UI-Software/Footer";
+import NavBar from "../UII/UI-Software/Navbar";
 
 export default function Applayout() {
   return (
