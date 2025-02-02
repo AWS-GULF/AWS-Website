@@ -11,7 +11,7 @@ export default function Footer() {
     <>
       <div className="sm:flex sm:justify-evenly sm:items-start sm:pt-16 w-full Footer border-t ">
         <footer className="footer flex text-base-content  sm:flex sm:justify-between sm:items-start  sm:ps-12 sm:pe-12  ">
-          <div className="w-[40%]">
+          <div className="w-[20%] sm:w-[40%] my-[auto]">
             <aside>
               <div className=" flex-col text-center justify-start  items-start   w-36 mt-[-5px]  sm:m-auto ">
                 <img src={logo} className=" w-[50%] sm:w-full  " />
@@ -21,38 +21,38 @@ export default function Footer() {
                 </p>
               </div>
 
-              <p className=" text-primary font-bold sm:text-3xl sm:tracking-widest text-center sm:ps-12  font-mons sm:mt-4 hidden sm:block">
+              <p className=" text-primary font-bold sm:text-2xl md:3xl sm:ms-[-30px] md:ms-[-15px] sm:tracking-widest text-center sm:ps-12  font-mons sm:mt-4 hidden sm:block">
                 Your Lighthouse To <br /> The Future
               </p>
             </aside>
           </div>
-          <div className="w-[80%] sm:w-[60%] sm:flex sm:justify-evenly flex justify-start items-start  sm:items-start ">
-            <nav className="">
-              <h6 className=" font-mons text-[24px] font-[500] text-primary mb-2 ">
+          <div className="w-[60%] sm:w-[60%] sm:flex sm:justify-evenly flex justify-between items-start ms-10 sm:items-start ">
+            <nav className=" sm:pe-0">
+              <h6 className=" font-mons text-[16px] sm:text-[24px] font-[500] text-primary mb-2 ">
                 Services
               </h6>
-              <ul className="">
-                <li className="mb-2">Mobile Development</li>
-                <li className="mb-2">Mobile Development</li>
-                <li className="mb-2">User-Centric Design</li>
-                <li className="mb-2">Data and Analytics</li>
-                <li className="mb-2">IT Services and IT Consultant</li>
-                <li className="mb-2">Software Consulting</li>
+              <ul className="text-[8px] sm:text-[16px] ">
+                <li className="sm:mb-2">Mobile Development</li>
+                <li className="sm:mb-2">Mobile Development</li>
+                <li className="sm:mb-2">User-Centric Design</li>
+                <li className="sm:mb-2">Data and Analytics</li>
+                <li className="sm:mb-2">IT Services and IT Consultant</li>
+                <li className="sm:mb-2">Software Consulting</li>
               </ul>
             </nav>
-            <nav className="  flex-col justify-start items-start ps-16">
-              <h6 className="font-mons text-[24px] font-[500] text-primary mb-2">
+            <nav className="  flex-col justify-start items-start ps-5  sm:ps-16 ">
+              <h6 className="font-mons text-[16px] sm:text-[24px] font-[500] text-primary mb-2">
                 Contact Us
               </h6>
-              <ul>
+              <ul className="text-[8px] sm:text-[16px]">
                 <li className="mb-4">
                   {" "}
                   Seville District 6346, Riyadh, Saudi Arabia
                 </li>
-                <li className="mb-4">+966 569851545</li>
-                <li className="mb-4">wessam@awsgulf.com</li>
-                <li className="mb-4">www.awasgulft.com</li>
-                <ul className="mt-3 flex  items-center ">
+                <li className="sm:mb-4 mb-2 ">+966 569851545</li>
+                <li className="sm:mb-4 mb-2">wessam@awsgulf.com</li>
+                <li className="sm:mb-4 mb-2">www.awasgulft.com</li>
+                <ul className="mt-3   items-center hidden sm:flex ">
                   <li>
                     <img src={behance} className="w-6 h-4" alt="behance" />
                   </li>
@@ -81,7 +81,7 @@ export default function Footer() {
         </footer>
       </div>
 
-      <p className="ms-[96px] me-[96px] text-center mt-10 mb-3">
+      <p className="ms-[96px] me-[96px] text-center mt-10 mb-3 text-[10px]">
         {" "}
         &copy; 2024 AWS Gulf . All rights reserved.
       </p>

@@ -29,10 +29,10 @@ export default function NavBar() {
       {/* sticky top-0 */}
       <div className="navbar   ">
         <div className="navbar-start  flex w-full justify-between items-center md:justify-start sm:justify-start sm:items-start sm:flex-row">
-          <div className="flex-col text-center justify-center items-center ps-10 w-20">
+          <div className="flex-col text-center justify-center items-center sm:ps-10 sm:w-20">
             <Link to={"/"}>
-              <img src={logo} className="w-full   " />
-              <p className="text-[10px] font-Arial text-primary font-semibold">
+              <img src={logo} className="w-full  ms-2 sm:ms-0 " />
+              <p className="text-[10px] font-Arial text-primary font-semibold ms-2 sm:ms-0">
                 Gulf
               </p>
             </Link>
