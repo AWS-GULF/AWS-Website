@@ -108,7 +108,7 @@ export default function CardFilter() {
             className={`px-4 py-2 mb-4 rounded-lg text-[white] font-bold transition-all ${
               selectedCategory === category
                 ? "bg-primary"
-                : " !border-primary text-[white] bg-white text-black border  rounded-[10px] hover:bg-primary hover:text-white"
+                : " !border-primary  bg-white text-black border  rounded-[10px] hover:bg-primary hover:text-white"
             }`}
           >
             {category}
