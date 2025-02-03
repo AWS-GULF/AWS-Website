@@ -20,7 +20,7 @@ export default function MobileDevelopment() {
   }, []);
   return (
     <>
-      <div className="px-6">
+      <div className="px-6 sm:px-0">
         <div className="  sm:ms-12 sm:me-12">
           <div className=" mt-4 sm:mt-16 mb-8 sm:mb-14 flex justify-center items-center">
             <img src={sr} alt="" />
@@ -35,29 +35,29 @@ export default function MobileDevelopment() {
             </h2>
           </div>
 
-          <div className="flex sm:justify-center sm:items-center justify-center sm:ps-[121px] sm:pe-[121px] mb-[100px]">
+          <div className="flex sm:justify-center overflow-scroll  scrollbar sm:overflow-hidden  sm:mb-[100px] mb-8">
             <div className="flex gap-2 sm:w-full justify-center items-center ">
               <img
                 src={kotlin}
-                className="sm:pe-[87px] w-[60px]   "
+                className="sm:pe-[87px] pe-12  "
                 alt="kotlin"
               />
               <img
                 src={oracle}
-                className="sm:pe-[87px] w-[60px] "
+                className="sm:pe-[87px] pe-12  "
                 alt="oracle"
               />
               <img
                 src={python}
-                className="sm:pe-[87px] w-[60px] "
+                className="sm:pe-[87px] pe-12  "
                 alt="python"
               />
               <img
                 src={radius}
-                className="sm:pe-[87px] w-[60px] "
+                className="sm:pe-[87px] pe-12  "
                 alt="radius"
               />
-              <img src={node} className="sm:pe-[87px] w-[60px] " alt="node" />
+              <img src={node} className="" alt="node" />
             </div>
           </div>
 
@@ -82,7 +82,7 @@ export default function MobileDevelopment() {
               <h4 className="font-mons sm:text-[20px]  text-[16px] font-[600] tracking-[2px] mb-4  ">
                 UX Design
               </h4>
-              <p className="font-mons sm:text-[16px] text-[10px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
+              <p className="font-mons sm:text-[16px]   text-[13px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
                 Our approach to native app development is rooted in a
                 human-centered philosophy, inspired by the timeless principles
                 of minimalism. By prioritizing elegance, simplicity, and the
@@ -100,11 +100,11 @@ export default function MobileDevelopment() {
             <div className="  w-3/4 m-auto sm:w-1/4">
               <img src={qc} className="w-full" alt="" />
             </div>
-            <div className="w-3/4 pt-14 flex-col justify-center items-center ps-1 mt-[-30px] m-auto ">
+            <div className="w-full sm:w-3/4 pt-14 flex-col justify-center items-center ps-1 mt-[-30px] m-auto ">
               <h4 className="font-mons sm:text-[20px]  text-[16px] font-[600] tracking-[2px] mb-4  ">
                 Speed{" "}
               </h4>
-              <p className="font-mons sm:text-[16px] text-[10px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
+              <p className="font-mons sm:text-[16px]   text-[13px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
                 Speed is critical to delivering a seamless user experience. We
                 ensure your app loads quickly, responds efficiently, and
                 operates flawlessly by integrating the latest speed optimization
@@ -117,11 +117,11 @@ export default function MobileDevelopment() {
             <div className=" w-3/4 m-auto sm:w-1/4 block sm:hidden">
               <img src={security} className="w-full" alt="" />
             </div>
-            <div className="w-3/4 pt-14 flex-col justify-center items-center ps-1 mt-[-30px] m-auto ">
+            <div className="w-full sm:w-3/4 pt-14 flex-col justify-center items-center ps-1 mt-[-30px] m-auto ">
               <h4 className="font-mons sm:text-[20px]  text-[16px] font-[600] tracking-[2px] mb-4 ">
                 Security{" "}
               </h4>
-              <p className="font-mons sm:text-[16px] text-[10px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
+              <p className="font-mons sm:text-[16px]   text-[13px] font-normal text-[400] tracking-[1.6px] leading-[30px] ">
                 Your data and your users' sensitive information are our top
                 priorities. We implement robust security measures to safeguard
                 your product, protect user identities, and maintain the highest
@@ -149,7 +149,7 @@ export default function MobileDevelopment() {
           </div>
 
           <div className="cards mb-[100px] sm:flex flex-col  sm:flex-row  sm:gap-4">
-            <div className="card bg-base-100 sm:w-96 w-full border-1 border border-stroke p-4">
+            <div className="card bg-base-100 sm:w-96 w-full border-1 border border-stroke p-4 mb-4 sm:mb-0">
               <figure>
                 <img className="w-[405px] h-[382px] " src={hwlk} alt="hwlk" />
               </figure>
@@ -158,7 +158,7 @@ export default function MobileDevelopment() {
                   Clients
                 </h2>
                 <div className="flex justify-center items-center ">
-                  <p className="font-mons text-[12px] font-[500]">
+                  <p className="font-mons text-[15px] font-[500]">
                     Nafaa is the first complete and integrated system of
                     expropriation in the Arabian Gulf region.
                   </p>
@@ -168,7 +168,7 @@ export default function MobileDevelopment() {
                 </div>
               </div>
             </div>
-            <div className="card bg-base-100 sm:w-96 w-full  border-1 border border-stroke p-4">
+            <div className="card bg-base-100 sm:w-96 w-full  border-1 border border-stroke p-4  mb-4 sm:mb-0">
               <figure>
                 <img className="w-[405px] h-[382px] " src={nfaa} alt="nfaa" />
               </figure>
@@ -177,7 +177,7 @@ export default function MobileDevelopment() {
                   Clients
                 </h2>
                 <div className="flex justify-center items-center ">
-                  <p className="font-mons text-[12px] font-[500]">
+                  <p className="font-mons text-[15px] font-[500]">
                     Nafaa is the first complete and integrated system of
                     expropriation in the Arabian Gulf region.
                   </p>
@@ -187,7 +187,7 @@ export default function MobileDevelopment() {
                 </div>
               </div>
             </div>
-            <div className="card bg-base-100 sm:w-96 w-full  border-1 border border-stroke p-4">
+            <div className="card bg-base-100 sm:w-96 w-full  border-1 border border-stroke p-4  mb-4 sm:mb-0">
               <figure>
                 <img className="w-[405px] h-[382px] " src={tsw} alt="tsw" />
               </figure>
@@ -196,7 +196,7 @@ export default function MobileDevelopment() {
                   Clients
                 </h2>
                 <div className="flex justify-center items-center ">
-                  <p className="font-mons text-[12px] font-[500]">
+                  <p className="font-mons text-[15px] font-[500]">
                     Nafaa is the first complete and integrated system of
                     expropriation in the Arabian Gulf region.
                   </p>
