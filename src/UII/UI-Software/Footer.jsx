@@ -13,8 +13,8 @@ export default function Footer() {
         <footer className="footer flex-col justify-center items-center flex text-base-content  lg:flex-row lg:justify-between lg:items-start  lg:ps-12 lg:pe-12  ">
           <div className="w-full lg:w-[40%] ">
             <aside className="w-full flex lg:flex-col  justify-center items-center">
-              <div className=" flex-col text-center items-center lg:justify-start  lg:items-start  w-[50%]   lg:w-36 mt-[-5px]  lg:m-auto ">
-                <img src={logo} className="mx-auto w-[50%]  lg:w-full  " />
+              <div className=" flex-col text-center items-center lg:justify-start  lg:items-start  w-[50%] mt-4   lg:w-36 lg:mt-[-5px]  lg:m-auto ">
+                <img src={logo} className="mx-auto w-[50%]  lg:w-full   " />
                 <p className="lg:text-6 mx-auto  text-lg font-Arial text-primary font-semibold w-[50%]  lg:w-full  ">
                   {" "}
                   Gulf

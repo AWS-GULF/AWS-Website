@@ -15,12 +15,15 @@ export default function Home() {
         }, []);
   return (
     <>
-      <Hero />
+    <div className="px-6 lg:px-0">
+    <Hero />
       <Partners />
       <AboutSection />
       <OurServices />
       <Clients />
       <Blogs />
+    </div>
+   
     </>
   );
 }

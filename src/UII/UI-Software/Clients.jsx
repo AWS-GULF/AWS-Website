@@ -15,9 +15,12 @@ export default function Clients() {
   }, []);
 
   return (
-    <div className="flex ms-12 me-12 py-[87px] px-[24px] bg-card rounded-[10px]">
-      <div className="w-1/2">
-        <h2 className="font-mons font-[600] text-5xl text-aboutCont tracking-[4.8px] leading-[60px]">
+    <div className="lg:flex lg:flex-row flex-col lg:ms-12 lg:me-12 lg:py-[87px] lg:px-[24px] bg-card rounded-[10px] ">
+        <div className="lg:w-1/2 w-full  justify-center items-start  lg:hidden">
+        <ClientsSlider />
+      </div>
+      <div className="lg:w-1/2 w-full">
+        <h2 className="font-mons font-[600] text-xl lg:text-5xl text-center lg:text-start text-aboutCont lg:tracking-[4.8px] lg:leading-[60px]">
           Clients Across The Globe
         </h2>
         <div className="flex items-start mt-16 me-8">
@@ -79,12 +82,12 @@ export default function Clients() {
             </motion.div>
           </motion.div>
         </div>
-        <p className="pt-[40px] ps-1">
+        <p className="pt-[40px] ps-1 pb-5 lg:pb-0">
           <Button type="linkBtn">WRITE YOUR TESTIMONIAL</Button>
         </p>
       </div>
 
-      <div className="w-1/2 flex justify-center items-start">
+      <div className="lg:w-1/2 w-full px-4 justify-center items-start hidden lg:flex">
         <ClientsSlider />
       </div>
     </div>
