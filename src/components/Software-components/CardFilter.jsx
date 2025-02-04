@@ -105,10 +105,10 @@ export default function CardFilter() {
           <button
             key={category}
             onClick={() => setSelectedCategory(category)}
-            className={`px-4 py-2 mb-4 rounded-lg text-white font-bold transition-all ${
+            className={`px-4 py-2 mb-4 rounded-lg text-[white] font-bold transition-all ${
               selectedCategory === category
                 ? "bg-primary"
-                : " !border-primary text-[#003540f4]   border  rounded-[10px] hover:bg-primary hover:text-white"
+                : " !border-primary  bg-white text-black border  rounded-[10px] hover:bg-primary hover:text-white"
             }`}
           >
             {category}
@@ -118,7 +118,7 @@ export default function CardFilter() {
 
       <div className="cards mb-[100px] flex  flex-wrap gap-4  justify-center">
         {filteredCards.map((card) => (
-          <div className="card  w-[30%] bg-base-900 h-[500px] border-1 border border-stroke p-4">
+          <div className="card   w-[30%] bg-base-900 h-[500px] border-1 border border-stroke p-4">
             <figure>
               <img
                 className="w-[405px] h-[382px] "
