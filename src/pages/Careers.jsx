@@ -1,13 +1,13 @@
 import React from "react";
-import sr from "../../public/assets/icons/sr.svg";
-import team from "../../public/assets/images/about-team-img.png";
+import sr from "/assets/icons/sr.svg";
+import team from "/assets/images/about-team-img.png";
 import JobList from "../components/Software-components/JobList";
-import comp from "../../public/assets/icons/comp.svg";
-import culture from "../../public/assets/icons/culture.svg";
-import diverse from "../../public/assets/icons/diverse.svg";
-import gain from "../../public/assets/icons/gain.svg";
-import growth from "../../public/assets/icons/growth.svg";
-import learn from "../../public/assets/icons/learn.svg";
+import comp from "/assets/icons/comp.svg";
+import culture from "/assets/icons/culture.svg";
+import diverse from "/assets/icons/diverse.svg";
+import gain from "/assets/icons/gain.svg";
+import growth from "/assets/icons/growth.svg";
+import learn from "/assets/icons/learn.svg";
 
 export default function Careers() {
   return (

@@ -1,11 +1,11 @@
-import logo from "../../../public/assets/icons/logo.svg";
-import x from "../../../public/assets/icons/x.svg";
-import faceBook from "../../../public/assets/icons/facebook.svg";
-import youtube from "../../../public/assets/icons/youtube.svg";
-import insta from "../../../public/assets/icons/insta.svg";
-import behance from "../../../public/assets/icons/behance.svg";
-import snap from "../../../public/assets/icons/snap.svg";
-import linked from "../../../public/assets/icons/linked.svg";
+import logo from "/assets/icons/logo.svg";
+import x from "/assets/icons/x.svg";
+import faceBook from "/assets/icons/facebook.svg";
+import youtube from "/assets/icons/youtube.svg";
+import insta from "/assets/icons/insta.svg";
+import behance from "/assets/icons/behance.svg";
+import snap from "/assets/icons/snap.svg";
+import linked from "/assets/icons/linked.svg";
 export default function Footer() {
   return (
     <>

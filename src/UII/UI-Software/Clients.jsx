@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import quote from "../../../public/assets/icons/gridicons_quote.svg";
+import quote from "/assets/icons/gridicons_quote.svg";
 import ClientsSlider from "../../components/Software-components/ClientsSlider";
 import Button from "../../components/Software-components/Button";
 

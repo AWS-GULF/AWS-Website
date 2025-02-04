@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import elect from "../../../public/assets/icons/elect.svg";
+import elect from "/assets/icons/elect.svg";
 export default function JobApplicationForm() {
   const [resume, setResume] = useState(null);
   const fileInputRef = useRef(null);

@@ -1,6 +1,6 @@
-import logo from "../../../public/assets/icons/logo.svg";
-import global from "../../../public/assets/icons/Globe.svg";
-import list from "../../../public/assets/icons/List.svg";
+import logo from "/assets/icons/logo.svg";
+import global from "/assets/icons/Globe.svg";
+import list from "/assets/icons/List.svg";
 
 import Button from "../../components/Software-components/Button";
 import { useEffect, useState } from "react";

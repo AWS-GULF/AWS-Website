@@ -1,3 +1,4 @@
+
 // import About from "../ui/AboutSection";
 import Hero from "../UII/UI-Software/Hero";
 // import Navbar from "../ui/Navbar";
@@ -21,6 +22,6 @@ export default function Home() {
       <OurServices />
       <Clients />
       <Blogs />
-    </>
-  );
+    </>
+  );
 }

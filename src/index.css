@@ -2,18 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
   margin: 0;
 }
-
-
-
-
-
-
-
-
-
 
 
 .slick-prev,
@@ -48,3 +41,28 @@
   border-radius: 0px 5px 5px  ;
 
 }
+
+
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+  /* //////////// */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

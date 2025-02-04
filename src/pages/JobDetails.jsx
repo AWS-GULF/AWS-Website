@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../public/assets/icons/logo.svg";
+import logo from "/assets/icons/logo.svg";
 import { Link, useParams } from "react-router";
 import Application from "../components/Software-components/Apllication";
 

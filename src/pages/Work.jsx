@@ -1,4 +1,4 @@
-import sr from "../../public/assets/icons/sr.svg";
+import sr from "/assets/icons/sr.svg";
 import ClientsSlider from "../components/Software-components/ClientsSlider";
 
 import CardFilter from "../components/Software-components/CardFilter";

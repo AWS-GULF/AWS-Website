@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
-import sr from "../../public/assets/icons/sr.svg";
-import accurate from "../../public/assets/images/accurate.png";
-import qc from "../../public/assets/images/qc.jpeg";
-import hwlk from "../../public/assets/images/hwlk.svg";
-import nfaa from "../../public/assets/images/nfaa.svg";
-import security from "../../public/assets/images/security.svg";
-import tsw from "../../public/assets/images/tsw.png";
+import sr from "/assets/icons/sr.svg";
+import accurate from "/assets/images/accurate.png";
+import qc from "/assets/images/qc.jpeg";
+import hwlk from "/assets/images/hwlk.svg";
+import nfaa from "/assets/images/nfaa.svg";
+import security from "/assets/images/security.svg";
+import tsw from "/assets/images/tsw.png";
 import Button from "../components/Software-components/Button";
-import kotlin from "../../public/assets/images/kotlin.svg";
-import node from "../../public/assets/images/node.svg";
-import oracle from "../../public/assets/images/oracle.svg";
-import radius from "../../public/assets/images/radius.svg";
-import tail from "../../public/assets/images/tail.svg";
-import python from "../../public/assets/images/python.png";
+import kotlin from "/assets/images/kotlin.svg";
+import node from "/assets/images/node.svg";
+import oracle from "/assets/images/oracle.svg";
+import radius from "/assets/images/radius.svg";
+import tail from "/assets/images/tail.svg";
+import python from "/assets/images/python.png";
 
 export default function staff() {
   useEffect(() => {

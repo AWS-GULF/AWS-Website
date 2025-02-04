@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import sr from "../../public/assets/icons/sr.svg";
-import accurate from "../../public/assets/images/accurate.png";
-import qc from "../../public/assets/images/qc.jpeg";
-import hwlk from "../../public/assets/images/hwlk.svg";
-import nfaa from "../../public/assets/images/nfaa.svg";
-import tsw from "../../public/assets/images/tsw.png";
+import sr from "/assets/icons/sr.svg";
+import accurate from "/assets/images/accurate.png";
+import qc from "/assets/images/qc.jpeg";
+import hwlk from "/assets/images/hwlk.svg";
+import nfaa from "/assets/images/nfaa.svg";
+import tsw from "/assets/images/tsw.png";
 import Button from "../components/Software-components/Button";
 export default function QualityAssurance() {
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import sr from "../../public/assets/icons/sr.svg";
-import accurate from "../../public/assets/images/accurate.png";
-import security from "../../public/assets/images/security.svg";
+import sr from "/assets/icons/sr.svg";
+import accurate from "/assets/images/accurate.png";
+import security from "/assets/images/security.svg";
 import { Link, Element } from "react-scroll";
 
 export default function ITandHardware() {

@@ -1,22 +1,22 @@
 import { useEffect, useState } from "react";
-import sr from "../../public/assets/icons/sr.svg";
-import srl from "../../public/assets/images/sr-gray.svg";
-import team from "../../public/assets/images/about-team-img.png";
-import pers1 from "../../public/assets/images/pers1.png";
-import pers2 from "../../public/assets/images/pers2.png";
-import pers3 from "../../public/assets/images/pers3.png";
+import sr from "/assets/icons/sr.svg";
+import srl from "/assets/images/sr-gray.svg";
+import team from "/assets/images/about-team-img.png";
+import pers1 from "/assets/images/pers1.png";
+import pers2 from "/assets/images/pers2.png";
+import pers3 from "/assets/images/pers3.png";
 import { ModalXl } from "../components/Software-components/Modal";
-import hwlk from "../../public/assets/images/hwlk.svg";
-import nfaa from "../../public/assets/images/nfaa.svg";
-import opm from "../../public/assets/images/opm.png";
-import roag from "../../public/assets/images/roag.png";
-import thmeen from "../../public/assets/images/thmeen.png";
-import value from "../../public/assets/images/value.png";
-import akark from "../../public/assets/images/akark.svg";
-// import nata from "../../public/assets/images/nata.png";
-import orera from "../../public/assets/images/orera.jpeg";
-import axis from "../../public/assets/images/axis.jpeg";
-import century from "../../public/assets/images/century.png";
+import hwlk from "/assets/images/hwlk.svg";
+import nfaa from "/assets/images/nfaa.svg";
+import opm from "/assets/images/opm.png";
+import roag from "/assets/images/roag.png";
+import thmeen from "/assets/images/thmeen.png";
+import value from "/assets/images/value.png";
+import akark from "/assets/images/akark.svg";
+// import nata from "/assets/images/nata.png";
+import orera from "/assets/images/orera.jpeg";
+import axis from "/assets/images/axis.jpeg";
+import century from "/assets/images/century.png";
 
 
 

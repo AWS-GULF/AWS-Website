@@ -1,15 +1,22 @@
 import Button from "../../components/Software-components/Button";
-import heroImg from "../../../public/assets/images/34beae32-da62-437d-9af6-1c67cc073acd.png";
-import x from "../../../public/assets/icons/x.svg";
-import faceBook from "../../../public/assets/icons/facebook.svg";
-import youtube from "../../../public/assets/icons/youtube.svg";
-import insta from "../../../public/assets/icons/insta.svg";
-import behance from "../../../public/assets/icons/behance.svg";
-import snap from "../../../public/assets/icons/snap.svg";
-import linked from "../../../public/assets/icons/linked.svg";
+import heroImg from "/assets/images/34beae32-da62-437d-9af6-1c67cc073acd.png";
+import x from "/assets/icons/x.svg";
+import faceBook from "/assets/icons/facebook.svg";
+import youtube from "/assets/icons/youtube.svg";
+import insta from "/assets/icons/insta.svg";
+import behance from "/assets/icons/behance.svg";
+import snap from "/assets/icons/snap.svg";
+import linked from "/assets/icons/linked.svg";
 import { ModalXl } from "../../components/Software-components/Modal";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/layoutMarkting");
+
+  };
   return (
     <div className=" sm:my-12 sm:mx-12 flex-col sm:flex-row sm:flex sm:justify-between  sm:items-center  ">
       <div className="sm:w-[45%] ">
@@ -28,7 +35,12 @@ export default function Hero() {
 <div className="buttonsAndIcons">
 <div className="flex gap-[30px] justify-start items-center  ">
 <p className=""><ModalXl/></p>
-<p><Button type="primaryXlLight">Marketing Services</Button></p>
+<Button
+        type="primaryXlLight"
+        onClick={handleClick}
+      >
+        Marketing Services
+      </Button>   
 
 </div>
 
